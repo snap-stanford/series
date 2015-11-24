@@ -14,7 +14,7 @@ def turn_cluster():
         lng = float(lng)
         d_before = int(d_before)
         d_after = int(d_after)
-        turn = [driver_id, lat, lng, d_before, d_after]
+        turn = [driver_id, lat, lng, d_before, d_after, filename]
 
         clustered = False
         for i in range(0, len(clusters)):
@@ -53,7 +53,19 @@ def output(threshold = 100):
                 latlngs.write('new GLatLng(%f, %f), ' %(turn[1], turn[2]))
             f.write('\n')
             latlngs.write('\n')
+    f.close()
+    latlngs.close()
+
+# output filenames in each cluster
+# each line contains filenames in one cluster separated by tab
+def output_filenames():
+    with open('clusters', 'w') as f:
+        for cluster in clusters:
+            for turn in cluster:
+                f.write(str(turn[-1]) + '\t')
+            f.write('\n')
+
 
 if __name__ == '__main__':
     turn_cluster()
-    output()
+    output_filenames()
