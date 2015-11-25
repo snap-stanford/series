@@ -11,6 +11,7 @@ from time import time
 #sys.stdout = open('log', 'w')
 
 TURNS_PATH = '/dfs/scratch0/silei/vw_project/turns/'
+NUM_CLUSTER = 4
 
 # extract feature vector for a given file
 def extract_feature_vector(filename):
@@ -113,7 +114,7 @@ def main():
 
     # if .pkl file exisit, load it, otherwise run signal check function
     if os.path.isfile('signal_record.pkl'):
-        with open('signal_record', 'rb') as handle:
+        with open('signal_record.pkl', 'rb') as handle:
             signal_record = pickle.load(handle) 
     else:
         signal_record = signal_check_all()
@@ -122,25 +123,25 @@ def main():
     #    km = kmeans(feature_matrix, k)
     #    print km.inertia_
 
-    km = kmeans(feature_matrix, 4)
+    km = kmeans(feature_matrix, NUM_CLUSTER)
     #print km.cluster_centers_
     #print km.labels_
     #print km.inertia_
 
     # print out the size of each cluster and the avg value of each cluster
-    size = [0.0] * 4
+    size = [0.0] * NUM_CLUSTER
     for label in km.labels_:
         size[label] += 1
     print 'Size of clusters: ' + str(size).strip('[]')
     print 'Average value of turns in each cluster: '
-    for label in range(0, 4):
+    for label in range(0, NUM_CLUSTER):
         print get_avg_vector(label, km.labels_, feature_matrix)
 
 
     # print out the percentage of siganl using for each cluster
-    num_turn_no_signal = [0] * 4
-    num_turn_signal = [0] * 4
-    for label in range(0, 4):
+    num_turn_no_signal = [0] * NUM_CLUSTER
+    num_turn_signal = [0] * NUM_CLUSTER
+    for label in range(0, NUM_CLUSTER):
         fils = get_files(label, km.labels_)
         for fil in fils:
             signal = signal_record[fil]
@@ -149,7 +150,7 @@ def main():
             else:
                 num_turn_no_signal[label] += 1
     
-    for i in range(0, 4):
+    for i in range(0, NUM_CLUSTER):
         print float(num_turn_signal[i]) / (num_turn_signal[i] + num_turn_no_signal[i])
 
 
