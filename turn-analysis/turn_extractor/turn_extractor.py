@@ -52,8 +52,8 @@ def turn_extractor_all(filename, start_line, end_line):
 
 # output a turn 
 def output(sid, heading, lat, lng, lines):
-    heading_before = sum(heading[0:50])/50
-    heading_after = sum(heading[-50:0])/50
+    heading_before = avg_direction(heading[:50])
+    heading_after = avg_direction(heading[-50:])
     center = len(lat) / 2
     clat = lat[center]
     clng = lng[center]

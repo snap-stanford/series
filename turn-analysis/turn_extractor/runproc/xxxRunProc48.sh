@@ -1,3 +1,3 @@
 #! /bin/sh
-python turn_extractor.py snapshots_9_221.dat
+python turn_extractor.py snapshots_6_174.dat
 exit 0
