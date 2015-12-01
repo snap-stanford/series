@@ -50,7 +50,13 @@ def output(threshold = 100):
                 f.write(str(turn[2]) + ' ')
                 f.write(str(turn[3]) + ' ')
                 f.write(str(turn[4]) + '\t')
-                latlngs.write('new GLatLng(%f, %f), ' %(turn[1], turn[2]))
+                with open(os.path.join('/dfs/scratch0/silei/vw_project/turns/', turn[-1]), 'r') as f_turn:
+                    lines = f_turn.readlines()
+                    line = lines[50].split('\t')
+                    latlngs.write('new GLatLng(%s, %s), ' %(line[4], line[5]))
+                    line = lines[-50].split('\t')
+                    latlngs.write('new GLatLng(%s, %s), ' %(line[4], line[5]))
+                #latlngs.write('new GLatLng(%f, %f), ' %(turn[1], turn[2]))
             f.write('\n')
             latlngs.write('\n')
     f.close()
@@ -65,7 +71,30 @@ def output_filenames():
                 f.write(str(turn[-1]) + '\t')
             f.write('\n')
 
+# output the avg value for each cluster
+def output_avg():
+    f = open('avg', 'w')
+    clusters.sort(lambda x, y: -cmp(len(x), len(y)))
+    for cluster in clusters:
+        f.write(str(len(cluster)) + '\t') 
+        avg_value = get_avg(cluster)
+        for i in range(4):
+            f.write(str(avg_value[i]) + '\t')
+        f.write('\n')
+    f.close()
+        
+
+# get avg value for a cluster
+def get_avg(cluster):
+    avg_value = [0.0, 0.0, 0.0, 0.0]
+    for turn in cluster:
+        for i in range(4):
+            avg_value[i] += turn[i + 1] 
+    return [v / len(cluster) for v in avg_value]
+        
 
 if __name__ == '__main__':
     turn_cluster()
     output_filenames()
+    output()
+    output_avg()
