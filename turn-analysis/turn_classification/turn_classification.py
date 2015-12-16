@@ -11,7 +11,7 @@ from time import time
 #sys.stdout = open('log', 'w')
 
 TURNS_PATH = '/dfs/scratch0/silei/vw_project/turns/'
-NUM_CLUSTER = 4
+NUM_CLUSTER = 5
 
 # extract feature vector for a given file
 def extract_feature_vector(filename):
