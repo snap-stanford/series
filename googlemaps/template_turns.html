@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Map Tool: Map Latitude Longitude Coordinates/Points - Google Maps</title>
+<style type="text/css">
+body, html{
+     margin: 0 auto;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+}
+#GMaps_canvas {
+     width: auto;
+     overflow: hidden;
+     height: 100%;
+}
+</style>
+</head>
+
+<body>
+<div id="GMaps_canvas"></div>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAm1onjHhvIeUrWDxfHDdcrhSFUs1UTamt_fmCjCNxRtuAbbqwohSVLimDwQekrOEsgF4COjHex4yiHQ"
+            type="text/javascript">
+</script>
+
+<script type="text/javascript">
+function GMaps_Load() {
+  if (GBrowserIsCompatible()) {
+    var map = new GMap2(document.getElementById("GMaps_canvas"));
+    map.addControl(new GSmallMapControl());
+    map.addControl(new GSmallMapControl());
+    var cords = [
+
+
+    ];
+    var pinList = [
+      
+
+    ];
+
+    for (var i = 0; i < cords.length; i++) {
+      var pinColor = pinList[i];
+      var pinImage = new GIcon(G_DEFAULT_ICON);
+      pinImage.image = "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor
+      var markerOptions = {icon:pinImage};
+      var marker = new GMarker(cords[i], markerOptions);
+      map.addOverlay(marker); 
+    }
+
+    // calculate and set center
+    var latlngbounds = new GLatLngBounds(  );
+    for (var i = 0; i < cords.length; i++) {
+      latlngbounds.extend(cords[i]);
+    }
+    map.setCenter(latlngbounds.getCenter(), map.getBoundsZoomLevel(latlngbounds));
+    map.addOverlay(marker); 
+  }
+}
+</script>
+
+<script type="text/javascript">
+     window.onload=function() {GMaps_Load();}
+</script>
+</body>
+
+</html>
