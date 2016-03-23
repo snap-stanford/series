@@ -17,7 +17,6 @@ features = pickle.load(open(sys.argv[1]))
 #features = pickle.load(open('../data/DataForClassification_final_simple_cross_longer_48.7880144539_11.3811151809_178.508532423_91.2866894198.pkl'))
 X = []
 Y = []
-indices = [0,1,4,5,6,7,10,15,19,20,21,26,27]
 #users = {4:[],6:[],10:[],12:[],15:[],35:[],45:[],50:[]}
 #classif = {4:[],6:[],10:[],12:[],15:[],35:[],45:[],50:[]}
 #labels = [10,6,21,45,50]
@@ -38,19 +37,6 @@ test_Y = []
 np.random.seed(1)
 for j in [0]:
 	data = np.array(features)
-	allindices = []
-	for idx in indices:
-		allindices = allindices + [7*idx+v for v in xrange(7)]
-	for ix in xrange(len(indices)):
-		baseline = 0
-		for jx in xrange(indices[ix]):
-			baseline = baseline + 30 - jx - 1
-		for jx in xrange(ix+1,len(indices)):
-			#print indices[ix],indices[jx],435+baseline+indices[jx]-indices[ix]-1
-			allindices.append(435+baseline+indices[jx]-indices[ix]-1)
-	for idx in indices:
-		allindices = allindices + [435+210+10*idx+v for v in xrange(10)]
-	allindices = np.array(allindices)
 	idx = []
 	for i in xrange(len(data)):
 		if data[i,-1] in users.keys():
