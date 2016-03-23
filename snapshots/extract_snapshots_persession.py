@@ -11,11 +11,17 @@ from id import *
 
 # filename list 
 # DON'T CHANGE THIS
-filenames = ['s_lwi_01_lwi_lenkradwinkel.tsv', 's_kombi_01_kbi_angez_geschw.tsv',\
-             's_navdata_01_nd_heading.tsv']
+#filenames = ['s_lwi_01_lwi_lenkradwinkel.tsv', 's_kombi_01_kbi_angez_geschw.tsv',\
+#             's_navdata_01_nd_heading.tsv']
+usefiles = []
+with open('usefulsig') as fp:
+	for line in fp:
+		usefiles.append(line.strip().split()[0]+'.tsv')
+#print usefiles
 # CHANGE THIS
 #filenames += ['s_navpos_01_np_latdegree.tsv', 's_navpos_01_np_longdegree.tsv']
-filenames += [\
+filenames = usefiles
+"""filenames += [\
              's_navpos_01_np_latdegree.tsv', 's_navpos_01_np_longdegree.tsv',\
              's_rls_01_ls_helligkeit_ir.tsv',\
              's_psd_02_psd_sys_strklassen_erweitert.tsv',\
@@ -37,7 +43,7 @@ filenames += [\
              ]
 # DON'T CHANGE THIS
 filenames += ['s_gateway_72_bh_blinker_li.tsv', 's_gateway_72_bh_blinker_re.tsv']
-
+"""
 dir = '/dfs/scratch0/dataset/vw/tsv_sorted'
 
 # car key: 0 - 9
@@ -218,7 +224,7 @@ def generate_snapshots(filenames, car_key, time_sessions):
         print end_time - start_time
                     
 def generate_snapshots_per_session(filenames, car_key, time_session):
-    file = '../snapshots/snapshots_' + str(car_key) + '_' + str(time_session) + '.dat'
+    file = '/dfs/scratch0/abhisg/snapshots/snapshots_' + str(car_key) + '_' + str(time_session) + '.dat'
     if os.path.isfile(file):
         print 'file exists, skip snapshots_' + str(car_key) + '_' + str(time_session)
         return 0
@@ -230,7 +236,15 @@ def generate_snapshots_per_session(filenames, car_key, time_session):
     #print end_time - start_time
 
 if __name__ == '__main__':
-    generate_snapshots_per_session(filenames, sys.argv[1], sys.argv[2])
+	usefiles = []
+	with open('usefulsig') as fp:
+		for line in fp:
+			usefiles.append(line.strip().split()[0]+'.tsv')
+	#print usefiles
+	# CHANGE THIS
+	#filenames += ['s_navpos_01_np_latdegree.tsv', 's_navpos_01_np_longdegree.tsv']
+	filenames = usefiles
+	generate_snapshots_per_session(filenames, sys.argv[1], sys.argv[2])
 
     #for i in range(0, len(car_keys)):
     #    generate_snapshots(filenames, car_keys[i], time_sessions_list[i])

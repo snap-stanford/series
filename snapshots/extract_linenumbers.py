@@ -63,7 +63,7 @@ def extract_linenumbers():
         length = len(car_id)
         
         fin = open(file, 'r')
-        fout = open('../stats/linenumbers/' + filename, 'w')
+        fout = open('../stats/linenumbers/' + filename, 'w+')
         #fout = open(filename, 'w')
 
         index = -1

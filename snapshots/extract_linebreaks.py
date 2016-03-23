@@ -82,22 +82,22 @@ def get_line_offset(filename, num_line, interval = INTERVAL):
 
 if __name__ == '__main__':
     # main 
-    #start_time = time.time()
-    #extract_linebreaks()
-    #end_time = time.time()
-    #print end_time - start_time
+    start_time = time.time()
+    extract_linebreaks()
+    end_time = time.time()
+    print end_time - start_time
 
     # test
-    start_time = time.time()
-    filename = 's_motor_12_mo_drehzahl_01.tsv'
-    data_path = '/dfs/scratch0/dataset/vw/tsv_sorted/'
-    file = os.path.join(data_path, filename)
-    offset = get_line_offset(filename, 999999)
-    with open(file, 'r') as f:
-        f.seek(offset)
-        print f.readline()
-    end_time = time.time()  
-    print end_time - start_time
+    #start_time = time.time()
+    #filename = 's_motor_12_mo_drehzahl_01.tsv'
+    #data_path = '/dfs/scratch0/dataset/vw/tsv_sorted/'
+    #file = os.path.join(data_path, filename)
+    #offset = get_line_offset(filename, 999999)
+    #with open(file, 'r') as f:
+    #    f.seek(offset)
+    #    print f.readline()
+    #end_time = time.time()  
+    #print end_time - start_time
 
 
             
