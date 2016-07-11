@@ -41,12 +41,12 @@ for user in users:
 				for line in lines:
 					line = line.strip().split()
 					if idx%10 != 0 and idx < nextidx and beginlat > 48 and endlat > 48 and beginlong > 11 and endlong > 11:
-						line[43] = "%.6f" % (beginlat+(endlat-beginlat)*1.0/(nextidx-beginidx)*(idx%10))
-						line[44] = "%.6f" % (beginlong+(endlong-beginlong)*1.0/(nextidx-beginidx)*(idx%10))
+						line[2] = "%.6f" % (beginlat+(endlat-beginlat)*1.0/(nextidx-beginidx)*(idx%10))
+						line[3] = "%.6f" % (beginlong+(endlong-beginlong)*1.0/(nextidx-beginidx)*(idx%10))
 					elif idx%10 == 0:
 						beginidx,nextidx = idx,min(idx+10,sessioncount-1)
-						beginlat,beginlong = float(line[43]),float(line[44])
-						endlat,endlong = float(lines[nextidx].strip().split()[43]),float(lines[nextidx].strip().split()[44])
+						beginlat,beginlong = float(line[2]),float(line[3])
+						endlat,endlong = float(lines[nextidx].strip().split()[2]),float(lines[nextidx].strip().split()[3])
 					idx = idx + 1
 					ofp.write('\t'.join(line)+'\n')
 	usercount = usercount + 1	
