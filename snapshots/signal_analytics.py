@@ -57,18 +57,19 @@ with open('/dfs/scratch0/dataset/vw/tsv_sorted/'+fname) as fp:
             timediff = timedelta(0)
             idx = 0
         elif current_car in cars and idx + 1 < len(cars[current_car]) and current_time >= cars[current_car][idx+1][0]:
-            print current_true,current_false,timediff.total_seconds()
             idx = idx + 1
-            current_car = line[0]
-            current_val = line[2]
-            last_time = current_time
-            if current_val == 't':
-                current_true = 1
-                current_false = 0
-            else:
-                current_false = 1
-                current_true = 0
-            timediff = timedelta(0)
+            if current_time <= cars[current_car][idx][1]:
+                print current_true,current_false,timediff.total_seconds()
+                current_car = line[0]
+                current_val = line[2]
+                last_time = current_time
+                if current_val == 't':
+                    current_true = 1
+                    current_false = 0
+                else:
+                    current_false = 1
+                    current_true = 0
+                timediff = timedelta(0)
     print current_true,current_false,timediff.total_seconds()
 
 
