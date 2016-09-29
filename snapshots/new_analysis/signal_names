@@ -218,6 +218,7 @@ LR_HZG_Taster_on_off
 MFL_Signalhorn_Err
 MFL_Signalhorn
 Parkhilfe_01_alt
+GE_Test_Freigabe
 GE_WH_Sperre
 GE_Drehzahlmesser_Daempfung
 GE_Freigabe_Synchro
@@ -751,6 +752,7 @@ standby request ESP
 force activation ESP
 UH_DLS
 gear lever initializing
+gear lever test active
 GE_Stoppverbot_Anz_07
 GE_Tipschaltempf_verfuegbar
 WBA_Segeln_aktiv

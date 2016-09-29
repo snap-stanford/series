@@ -1,5 +1,3 @@
-all_stats 0 0 0
-filtered_stats 0 32505368 0.511889 0.999998 1.68143e-06
 s_acc_02_acc_anzeige_zeitluecke.newdump 12381 13435 0.00455245 0.00478187 0.995218
 s_acc_02_acc_optischer_fahrerhinweis.newdump 64 683 3.46565e-05 1.51141e-05 0.999985
 s_acc_02_acc_tachokranz.newdump 12139 13195 0.00424778 0.176631 0.823369
@@ -360,7 +358,7 @@ s_gateway_78_mfl_signalhorn_err.newdump 2014 618 0.000657226 2.2663e-06 0.999997
 s_gateway_78_mfl_signalhorn.newdump 2014 618 0.000657226 2.2663e-06 0.999997
 s_gateway_78_parkhilfe_01_alt.newdump 2615 17 0.000290773 1 0
 s_getriebe_06_ge_ausleuchtungsmode.newdump 0 317 0 0 0.999999
-s_getriebe_06_ge_test_freigabe.newdump 0 0 0
+s_getriebe_06_ge_test_freigabe.newdump 56513966 56513965 48.5205 0.493198 0.506801
 s_getriebe_06_ge_wh_nmhigh_wakeup.newdump 0 317 0 0 0.999999
 s_getriebe_06_ge_wh_sperre.newdump 3311 3728 0.0012027 0.973529 0.0264709
 s_getriebe_11_ge_freig_mmom_vorhalt.newdump 0 318 0 0 0.999999
@@ -782,7 +780,7 @@ s_motor_20_mo_moment_im_leerlauf.newdump 571816 571897 0.138796 0.329182 0.67081
 s_motor_20_mo_qbit_fahrpedalwerte_01.newdump 0 601 0 0 1
 s_motor_20_mo_rel_saugrohrdruck_gem_err.newdump 0 601 0 0 1
 s_motor_20_mo_schubabschaltung.newdump 0 601 0 0 1
-s_motor_20_mo_sig_fahrpedalgradient.newdump 5258880 5259870 2.55921 0.0709738 0.929026
+s_motor_20_mo_sig_fahrpedalgradient.newdump 8195348 8196847 2.58685 0.0720615 0.927938
 s_motor_21_mo_stoppverbot_anz_01.newdump 0 598 0 0 1
 s_motor_21_mo_stoppverbot_anz_02.newdump 347 798 8.05617e-05 0.00716281 0.992837
 s_motor_21_mo_stoppverbot_anz_03.newdump 0 598 0 0 1
@@ -829,7 +827,7 @@ s_motor_21_stst_koord_wiederstart_anz_08.newdump 0 598 0 0 1
 s_motor_21_stst_koord_wiederstart_anz_std.newdump 0 598 0 0 1
 s_motor_26_mo_heissleuchte.newdump 0 598 0 0 1
 s_motor_26_mo_itm_warnung_pumpe.newdump 0 599 0 0 1
-s_motor_26_mo_kuehlerluefter_mux.newdump 4937311 4937314 9.93434 0.509287 0.490712
+s_motor_26_mo_kuehlerluefter_mux.newdump 44200880 44200858 10.1037 0.516554 0.483446
 s_motor_26_mo_obd2_lampe.newdump 2638 3182 0.000637965 0.00319883 0.996801
 s_motor_26_mo_partikel_lampe.newdump 1385 2090 0.00041395 0.000131715 0.999868
 s_motor_26_mo_redfahrleistung_lampe.newdump 0 598 0 0 1
@@ -892,25 +890,25 @@ s_pla_status_01_pls_pl_exist.newdump 294 564 0.000383167 0.000537089 0.999462
 s_pla_status_01_pls_pl_seite.newdump 47 313 6.16801e-05 0.000307809 0.999692
 s_pla_status_01_pls_pos_ok.newdump 300 569 0.000396589 0.000443779 0.999556
 s_pla_status_01_pls_standby.newdump 108 379 0.000137424 0.000553018 0.999446
-s_psd_01_psd_adas_qualitaet.newdump 4835551 4836097 3.04851 0.357051 0.642948
+s_psd_01_psd_adas_qualitaet.newdump 10917018 10918431 3.15492 0.370862 0.629138
 s_psd_01_psd_pos_standort.newdump 412563 413422 0.102819 0.713337 0.286663
-s_psd_01_psd_wahrscheinlichster_pfad.newdump 4667123 4667726 2.94031 0.338071 0.661929
-s_psd_02_psd_abz_abzweigerichtung.newdump 1662058 1661983 4.67137 0.987093 0.0129061
-s_psd_02_psd_abz_adas_qualitaet.newdump 650713 645224 2.03564 0.992942 0.00705642
-s_psd_02_psd_abz_geschwindigkeit_typ.newdump 1633385 1633712 2.13092 0.977351 0.0226486
-s_psd_02_psd_abz_wahrscheinlichster_pfad.newdump 1194552 1194170 1.88824 0.996083 0.00391626
+s_psd_01_psd_wahrscheinlichster_pfad.newdump 10591635 10592923 3.00187 0.346029 0.653971
+s_psd_02_psd_abz_abzweigerichtung.newdump 4234572 4234421 4.70175 0.987632 0.0123671
+s_psd_02_psd_abz_adas_qualitaet.newdump 4622077 4623160 1.99674 0.993753 0.00624715
+s_psd_02_psd_abz_geschwindigkeit_typ.newdump 4845991 4846932 2.11477 0.977558 0.0224417
+s_psd_02_psd_abz_wahrscheinlichster_pfad.newdump 4147519 4146191 1.85303 0.996112 0.0038881
 s_psd_02_psd_ges_geschwindigkeit_typ.newdump 443424 444505 0.129168 0.981756 0.0182435
 s_psd_02_psd_sys_bruecke.newdump 83651 85311 0.0820853 0.0234129 0.976587
 s_psd_02_psd_sys_digitalisierung.newdump 86751 87485 0.020706 0.980164 0.0198358
-s_psd_02_psd_sys_geschwindigkeit_einheit.newdump 0 2123 0 0 0.999995
-s_psd_02_psd_sys_maut.newdump 0 572 0 0 0.999889
-s_psd_02_psd_sys_ortschaft.newdump 237893 238056 0.473247 0.993773 0.0062262
-s_psd_02_psd_sys_ortsschild.newdump 0 2123 0 0 0.999995
-s_psd_02_psd_sys_tmc_baustelle.newdump 0 572 0 0 0.999889
+s_psd_02_psd_sys_geschwindigkeit_einheit.newdump 0 2190 0 0 0.999995
+s_psd_02_psd_sys_maut.newdump 0 2149 0 0 0.999994
+s_psd_02_psd_sys_ortschaft.newdump 988569 989285 0.472485 0.960715 0.0392844
+s_psd_02_psd_sys_ortsschild.newdump 0 2190 0 0 0.999995
+s_psd_02_psd_sys_tmc_baustelle.newdump 0 2149 0 0 0.999994
 s_psd_02_psd_sys_tmc_stau.newdump 0 1768 0 0 1
-s_psd_02_psd_sys_tunnel.newdump 12 584 0.00267051 0.000550851 0.999338
+s_psd_02_psd_sys_tunnel.newdump 75 2224 0.000883297 0.000210242 0.999784
 s_psd_02_psd_sys_verkehrsrichtung.newdump 0 1768 0 0 1
-s_psd_02_psd_sys_zielfuehrung.newdump 2558 4605 0.0134148 0.535489 0.464508
+s_psd_02_psd_sys_zielfuehrung.newdump 2577 4708 0.0133942 0.534672 0.465326
 s_radio_01_ra_am_tuning.newdump 2 595 1.31511e-06 1.98597e-06 0.999998
 s_radio_01_ra_powerampon.newdump 0 593 0 0 1
 s_radio_01_ra_radio_mute.newdump 0 593 0 0 1
@@ -1029,7 +1027,7 @@ s_systeminfo_01_si_qrs_mode.newdump 0 593 0 0 1
 s_systeminfo_01_si_sammelfehler.newdump 1570 1037 0.000243875 0.965252 0.0347475
 s_systeminfo_01_si_t_mode.newdump 0 593 0 0 1
 s_systeminfo_01_si_t_schutz.newdump 0 593 0 0 1
-stats_with_desc 0 32505368 0.511889 0.999998 1.68143e-06
+stats_with_desc 0 37467795 259873 0.233685 0.759379
 s_telefon_01_tf_bt_connectionstate.newdump 1027 1115 0.000210291 0.71407 0.28593
 s_telefon_01_tf_phone_active_call.newdump 0 593 0 0 1
 s_telefon_01_tf_phone_err_fieldstrength.newdump 0 593 0 0 1
@@ -1134,7 +1132,7 @@ s_tsk_07_tsk_fahrzeugstatus_limiter.newdump 0 599 0 0 1
 s_tsk_07_tsk_limiter_anzeige.newdump 0 599 0 0 1
 s_uhrzeit_01_uh_dls.newdump 2478 155 0.000334907 0.874452 0.125548
 s_waehlhebel_03_wh_initialisierung.newdump 1488 1738 0.000637226 0.000220111 0.99978
-s_waehlhebel_03_wh_test_aktiv.newdump 0 0 0
+s_waehlhebel_03_wh_test_aktiv.newdump 56514395 56514445 49.1204 0.499364 0.500636
 s_wba_03_ge_stoppverbot_anz_01.newdump 0 315 0 0 0.999999
 s_wba_03_ge_stoppverbot_anz_02.newdump 0 315 0 0 0.999999
 s_wba_03_ge_stoppverbot_anz_03.newdump 0 315 0 0 0.999999
