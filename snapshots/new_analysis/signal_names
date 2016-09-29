@@ -1,0 +1,867 @@
+Adaptive Cruise Control: 
+optical take over request for driver from adaptive cruise control
+additional state and adjustments of the red indicated area of the adaptive cruise control in cluster
+depending on the country setting of the adaptive cruise control this signal shortens the range of the red LEDs in cluster
+triggers LED below minimal speed to set
+Adaptive Cruise Control: command start-up
+Adaptive Cruise Control: command stop
+Adaptive Cruise Control: command minimum breaking
+Adaptive Cruise Control: command start-up
+Adaptive Cruise Control: command stop
+mode of automatic emergency brake
+Allowance of partial emergency braking to electronic stability program
+Allowance of full emergency braking to electronic stability program
+command to ESP: activate Prefill
+AWV2_Freigabe
+Request to hold vehicle still after emerency braking to a full stop and trigger to observe driver interaction
+Allowance for front precrash system to operate
+front-seat passenger not fastened; Information in instrument cluster
+driver not fastened; Information in instrument cluster
+Airbag light on/off
+airbag: multi collision breaking activated
+airbag: indicator actuator
+indicator passenger airbag activated
+APS_Tongeber_defekt
+BCM1_AFS_Lampe
+BCM1_EasyEntry_Status
+BCM1_Hinweis_Lichtnachlauf
+BCM1_Kl_15_HW_erkannt
+BCM1_Kl_15_Sig_HW_erkannt
+BCM1_Lenksaeule_aktiv
+BCM1_Licht_Warn
+BCM1_MH_Schalter
+BCM1_MH_WIV_Schalter
+BCM1_NV_switch shows if the NightVision-button in the auto light switch module is currently pressed.
+reversing light switch from MQB/MLBevo: ; The gear informatin is transmitted non debounced. ; Automatic gear: for a short time the R-gear is displayed. The debouncing has to be implemented in the receiver
+BCM1_Valet_Parking_Taster
+warning lights button
+indicator brake pad
+indicator brake fluid
+BCM_Eco_Charisma_Taste
+BCM_HDF_betaetigt
+BCM_Hybrid_StartStopp_Taste
+status cooling fluid
+status cooling fluid
+activation Offroad-button
+"signal sensorelectrodes for washer water ; reserve up to date
+Gong_TFL_Umschaltung
+KY_Entriegeln
+KY_KessyEntryExit_Akt
+KY_Softtouch
+KY_Verriegeln
+KY_GoAuthent_Resp
+KY_GoTransponder_ID
+KY_ID_Geber_1
+KY_ID_Geber_2
+KY_Key_Minder
+KY_UHF_Pulse_Empf
+energy signals are invalid
+approval for recuperation from battery energie management
+Blinking left (car pulse)
+Blinking left (instrument pulse)
+Blinking right (car pulse)
+Blinking right (instrument pulse)
+status comfort flashing
+BM_Crash
+BM_DWA_Alarm
+BM_DWA_ein
+BM_GDO
+BM_HD_Oeffnung_angelernt
+BM_links
+BM_NBA_n_codiert_n_aktiv
+BM_Not_Bremsung
+BM_Panik
+BM_Recas
+BM_rechts
+BM_Rollenmodus_Blinken
+BM_Taxi_Notalarm
+BM_Telematik
+hazard light
+BM_WBT_Beleuchtung
+BM_ZV_auf
+flashing at central locking closed
+CHA_Fahrer_Umschaltung
+Kombi_02_alt
+Uhrzeit_01_alt
+DI_Display_Nachtdesign
+KBI_Einheit_Streckenanz
+KBI_Einheit_Temp
+KBI_Einheit_Uhrzeit
+KBI_MFA_v_Einheit_02
+ELV_01_Sendestatus
+ELV_Abbruch_Anf_Klemmenfreigabe
+ELV_Anf_Klemme_15
+ELV_Anf_Klemme_50
+ELV_Anf_Klemme_S
+ELV_Anlernmodus
+ELV_Entriegelt
+ELV_Klemmenfreigabe
+ELV_Lebenszustand
+ELV_LED_Gelb
+ELV_LED_Rot
+ELV_P_verriegelt
+ELV_Txt_Bremse
+ELV_Txt_Defekt
+ELV_Txt_Kupplung
+ELV_Txt_Lkg_Bewegen
+ELV_Txt_Panikabschaltung
+ELV_Txt_P_Gang
+ELV_Txt_PN_Gang
+ELV_Txt_Werkstatt
+ELV_Verriegelt
+ELV_ZAT_betaetigt
+KST_aut_Abschaltung_Zuendung
+KST_Txt_Komfortabschaltung
+KST_Unterdr_Zuendungsmeldung
+EPB_DAA_Randbed_erf
+EPB_Freig_Verzoeg_Anf
+EPB_QBit_Pedalweg_Kuppl
+EPB_QBit_Schalterpos
+electric parking brake acustic warning
+automated holding of the brake aktiv
+electric parking brake yellow error indicator
+parking brake closed
+ESP_Notbremsanzeige
+ESP_QBit_Gierrate
+ESP_QBit_Laengsbeschl
+ESP_QBit_Querb
+ECD_Bremslicht
+ECD_nicht_verfuegbar
+ESP_Autohold_aktiv
+ESP_Autohold_Standby
+ESP_Bremsruck_AWV2
+ESP_Fahrer_bremst
+ESP_Status_Anfahrhilfe
+ESP_Status_Bremsdruck
+ESP_Status_Bremsentemp
+ESP_Verz_EPB_aktiv
+ESP_Verzoeg_EPB_verf
+ESP_Verz_TSK_aktiv
+ESP_Rollenmodus_Deaktivieren
+ESP_ZT_Rueckk_Umsetz
+ESP_QBit_Wegimpuls_HL
+ESP_QBit_Wegimpuls_HR
+ESP_QBit_Wegimpuls_VL
+ESP_QBit_Wegimpuls_VR
+ESP_Stoppverbot_Anz_02
+ESP_Wiederstart_Anz_02
+"anti-lock braking system
+ASR_Anf
+ASR_Tastung_passiv
+EBV_Eingriff
+EDS_Eingriff
+shows if ACC-stopping is active
+ESP_Diagnose
+intervention driving-dynamics controller (electronic stability program)
+electronic stability program stop confirmation 
+ESP_Tastung_passiv
+MSR_Anf
+ABS_Lampe
+ESP_Lampe
+ESP_Off_Lampe
+ESP_Wegimp_Ueberlauf
+FLA_aktiv
+FLA_Aufblenden
+FLA_Sensor_blockiert
+ISP_EC_aktiv
+ISP_Kompass_aktiv
+ISP_Taste_betaetigt
+"anti-lock braking system
+ECD_Bremslicht
+EPB_01_alt
+EPB_QBit_Pedalweg_Kuppl
+ESP_05_alt
+ESP_21_alt
+intervention driving-dynamics controller (electronic stability program)
+ESP_QBit_v_Signal
+Kamera_FSH_aktiv
+Kamera_Status_alt
+LWI_01_alt
+LWI_QBit_Lenkradwinkel
+Parkhilfe_01_alt
+parking system request to lower radio volume
+BCM_01_alt
+BCM1_MH_Schalter
+reversing light switch from MQB/MLBevo: ; The gear informatin is transmitted non debounced. ; Automatic gear: for a short time the R-gear is displayed. The debouncing has to be implemented in the receiver
+BCM_Rueckfahrlicht_Anf
+activation turn signal left
+activation turn signal right
+activation high beam
+Klima_11_alt
+Klima_Sensor_02_alt
+Licht_Anf_01_alt
+SMLS_01_alt
+status: washing in front active
+WFS_01_alt
+WFS_ID_Geb_autorisiert_in_Kl15
+Wischer_01_alt
+windshield wiper active
+windshield wiper
+ZV_02_alt
+front seat passenger door open
+driver door open
+status trunk lid
+ESP_07_alt
+ESP_Rollenmodus_Deaktivieren
+Getriebe_11_alt
+Getriebe_13_alt
+MO_QBit_Drehzahl_01
+Motor_12_alt
+GW_78_va_13
+GW_78_va_14
+GW_78_va_15
+GW_78_va_16
+GW_78_va_17
+LH_EPS_02_alt
+LIN_2_alt
+LR_HZG_Taster_on_off
+MFL_Signalhorn_Err
+MFL_Signalhorn
+Parkhilfe_01_alt
+GE_WH_Sperre
+GE_Drehzahlmesser_Daempfung
+GE_Freigabe_Synchro
+GE_Freig_Langfr_Schutzmom
+GE_Freigabe_Verfallsinfo_WFS
+GE_LFR_Adaption
+cruise control: off with saving; Adaptive Cruise Control: soft off
+error in (adaptive) cruise control
+Position CC/ACC-main switch; 
+Position Limiter-Button
+presence of limiter mode button at cruise control stick
+hold-to-run control device Tip Up/increase speed
+hold-to-run control device Tip down/reduce speed
+hold-to-run control device set
+"Signal is showing
+hold-to-run  resumption
+main switch adaptive and regular cruise control
+HCA_01_LM_OffSign
+HCA_01_Sendestatus
+EM_aktiv
+EM_Verbraucherabsch_Anz
+FSH_LED
+HLR_LRH_Freigabe
+HLR_SIH_Freigabe_Fond
+HSH_LED
+KL_Spg_Hzg_aus
+HSP_Endlage_ausgefahren
+HSP_Endlage_eingefahren
+HSP_Motor_def
+HSP_Taster_Error
+HSP_Warnung_Text
+HSP_Warnung_Ton
+BCM1_DI_Rampe_Innenlicht
+BCM1_DI_Rampe_Leselicht
+BCM1_Innenlicht_gedimmt_H
+BCM1_Innenlicht_gedimmt_V
+indicator internal lightning rear
+indicator internal lightning front
+request reading light rear left
+request reading light rear right
+request reading light front left
+request reading light front right
+BCM1_Leuchten_Aus
+IL_Bel_BFS_Ausstieg
+IL_Bel_FS_Ausstieg
+IL_Bel_HBFS_Ausstieg
+IL_Bel_HFS_Ausstieg
+IL_Innenlicht_aktiv
+IL_Klemme_30G_aktiv
+Kamera_FSH_aktiv
+KY_BFS_Sensor_Auf
+KY_BFS_Sensor_Zu
+KY_FS_Sensor_Auf
+KY_FS_Sensor_Zu
+KY_Fzg_Verlassen_erkannt
+KY_Fzg_Zugang_erkannt
+KY_Gestik_HD
+KY_Gong_600
+KY_ID_Geber1_im_Fzg
+KY_ID_Geber2_im_Fzg
+KY_ID_Geber3_im_Fzg
+KY_ID_Geber4_im_Fzg
+KY_ID_Geber_Suche
+KY_Passiv_Autolock_Akt
+KY_Passiv_Autolock_Menue
+KY_Passiv_Autolock_Menue
+KY_Passiv_Autounlock
+KY_Startknopf_Bel
+request remote start operation mode
+body control module requests to turn ignition on
+request remote start the engine
+show message 1 to driver in cluster
+show message 2 to driver in cluster
+show message 3 to driver in cluster
+show message 4 to driver in cluster
+show message 5 to driver in cluster
+show message 6 to driver in cluster
+"warning
+"warning
+ignition / Klemme 15 status
+Request engine start by driver
+Power Infotainment
+status power Klemme S
+status power Klemme X
+KL_BCmE_Livetip_Freigabe
+KL_FSH_Automatikbetrieb
+KL_HYB_ASV_hinten_schliessen_Anf
+KL_HYB_ASV_vorne_schliessen_Anf
+KL_HYB_Spuelbetrieb_Freigabe
+KL_Kompressorkupplung
+KL_Magnetventil
+KL_Restwaerme_aktiv
+KL_Solarluefter_aktiv
+KL_STH_aktiv
+KL_STL_aktiv
+KL_Umluft_Taste
+KL_WaPu
+KL_Stopp_Wiederstart_Anz_01
+KL_Stopp_Wiederstart_Anz_02
+KL_Stopp_Wiederstart_Anz_03
+KL_Stopp_Wiederstart_Anz_04
+KL_Stopp_Wiederstart_Anz_05
+KL_Stopp_Wiederstart_Anz_06
+KL_Stopp_Wiederstart_Anz_07
+KL_Stopp_Wiederstart_Anz_08
+KL_Stopp_Wiederstart_Anz_09
+KL_Stopp_Wiederstart_Anz_Std1
+KL_Stopp_Wiederstart_Anz_Std2
+KL_AC_Schalter
+KL_Drehz_Anh
+KL_Komp_Moment_alt
+KL_nachtr_Stopp_Anf
+KL_Vorwarn_Komp_ein
+KL_Vorwarn_Zuheizer_ein
+KL_Zustand
+FSH_Taster
+KL_Beschlagsgefahr
+KL_LRH_Taster
+KL_Zuheizer_Freigabe
+FS_ResponseError
+BCM1_FStatus_Aussentemp_ungef
+instrument cluster: ABS (AntiBlockSystem)-safety-lamp turned on
+instrument cluster: Airbag-lamp turned on
+cluster reports error in showing the night vision image
+Status ACC-information in non permanent display area
+trailer assist is shown in cluster
+trigger brake check light in cluster
+unit of the analog velocity in cluster
+trigger of the error indicator of the eletronic stability program inside the cluster
+Feedback to adaptive cruise control about broken warnings/messages
+hand brake information from instrument cluster. The ; signal only refers to the conventional hand brake status
+testing gauges in cluster
+Feedback to adaptive cruise control about error in communication
+trigger of ther error indicator steering inside the cluster
+choosen unit of the velocity signal
+Nightvision image is shown in cluster
+state of oil pressure
+oil pressure warning in cluster
+information of the parking assist are currently shown in cluster
+trigger airbag safty check in cluster
+"driver warning
+feedback indicator for preheating the engine in cluster
+KBI_FStatus_Tank
+KBI_Oelwechsel_durchgefuehrt
+KBI_QBit_Aussen_Temp_gef
+KBI_RDK_Kalibrier_Anf
+KBI_Reserve_Warnung_Sek
+display BCmE active (Efficiency Program on Board Computer or fuel effiiency ; indication on display)
+status information refill modus
+KBI_Sparhinweis_quittiert
+KBI_Variante_USA
+LDW_Seite_DLCTLC
+LDW_Status_LED_gelb
+LDW_Status_LED_gruen
+EPS_VZ_BLW
+request low beam
+Enable adaptive light distribution
+request all weather light
+request highway light
+state comming / leaving home
+request high beam
+Enable adaptive front light
+force adaptive front light to high beam
+request curve light left
+request curve light right
+request fog light
+request tail fog light trailer
+request tail fog light
+request parking light left
+request parking light right
+request rain light
+request tail light
+request sidelight
+request daytime driving light
+request tourist light
+request surround light
+request rear driving light
+brakelight (ECD-braking : Electronically Controlled Deceleration)
+3rd brake light broken
+outside illumination broken
+rear blinker left
+rear blinker right
+turn signal rear left broken
+turn signal rear right broken
+multiple tail lights left are broken
+multiple tail lights right are broken
+rear brake light
+brake signal left broken
+brake light left broken
+brake signal right broken
+brake light right broken
+license plate illumination broken
+rear left fog light broken
+fog light middle broken
+rear right fog light broken
+rear fog-light
+rear park light left
+rear park light right
+reverse light
+rear driving indicator left broken
+rear driving signal middle broken
+rear driving indicator right broken
+multiple tail lights left are broken
+left tail light unit short circuitened or disconnected
+right tail light unit short circuitened or disconnected
+multiple tail lights right are broken
+tail light left broken
+tail light right broken
+multiple tail lights left are broken
+multiple tail lights right are broken
+multiple tail lights left are broken
+multiple tail lights right are broken
+parking light rear
+BCM1_Licht_Dunkelheit_aktiv
+BCM1_Linksverkehr
+LV_Abbiegelicht_li_def
+LV_Abbiegelicht_re_def
+LV_Abblend_Fernlicht_li_def
+LV_Abblend_Fernlicht_re_def
+LV_Abblendlicht_Anzeige
+LV_Abblendlicht_li_def
+LV_Abblendlicht_re_def
+LV_Abblendlicht_TFL_li_def
+LV_Abblendlicht_TFL_re_def
+LV_AFL_aktiv_Anzeige
+LV_AFL_defekt
+LV_Aussenlicht_def
+LV_Blinker_li_def
+LV_Blinker_re_def
+LV_Blinker_VL_aktiv
+LV_Blinker_VR_aktiv
+LV_Blk_li_Seite_def
+LV_Blk_re_Seite_def
+LV_Fernlicht_Anzeige
+LV_Fernlicht_li_def
+LV_Fernlicht_re_def
+LV_FLA_aktiv_Anzeige
+LV_FLA_defekt
+LV_FLA_Sensor_blockiert
+LV_LED_Scheinwerfer_li_def
+LV_LED_Scheinwerfer_re_def
+LV_Nebellicht_Anzeige
+LV_Nebellicht_li_def
+LV_Nebellicht_re_def
+LV_Nebellicht_TFL_li_def
+LV_Nebellicht_TFL_re_def
+LV_Nebelschlusslicht_Anzeige
+LV_Standlicht_Anzeige
+LV_Standlicht_li_def
+LV_Standlicht_re_def
+LV_Standlicht_TFL_li_def
+LV_Standlicht_TFL_re_def
+LV_Tagfahrlicht_Anzeige
+LV_Tagfahrlicht_li_def
+LV_Tagfahrlicht_re_def
+AFS_Abbiegelicht_Dimm_Anf
+AFS_adaptive_LV_verbaut
+AFS_Fernlicht_Status
+AFS_Status_adaptive_LV
+AFS_Verfuegbarkeit_GLW
+LWR_Initialisierungslauf
+LWR_Modus
+LWR_Sicherheitsposition
+LWR_Touristenmodus_verbaut
+"For manual switch vehicles
+MO_KVS_Ueberlauf
+MO_Schaltempf_verfbar
+MO_Getriebe_kuehlen
+MO_QBit_Ansaugluft_Temp
+MO_QBit_Oel_Temp
+MO_SpannungsAnf
+quality bit for engine momentum
+engine ECU is in regular working mode
+MO_Aussp_Anlass
+MO_BLS
+MO_Fahrer_bremst
+MO_Freigabe_Segeln
+MO_Interlock
+MO_Kickdown
+MO_Kl_50
+MO_Kl_75
+MO_Kuppl_schalter
+"The engine control unit provides the information
+MO_QBit_Gangposition
+MO_QBit_KL_75
+MO_StartStopp_Motorstopp
+MO_StartStopp_Wiederstart
+MO_DPF_reg
+TSK_QBit_Steigung
+MO_Prio_MIN_Wunschdrehzahl
+MO_Moment_im_Leerlauf
+MO_Sig_Fahrpedalgradient
+motor stop prohibited due to low engine temperature
+motor stop prohibited due to underpressure braking system
+motor stop prohibited due to gear sensor
+motor stop prohibited due to diesel particle filter regeneration
+Restart engine due to motor temperature
+Restart engine due to underpressure in brake booster
+brakepedal as restart trigger enabled
+Start stop coordinator stop prohibition: tilted vehicle
+Start stop coordinator stop prohibition: Already restarted
+Start stop coordinator stop prohibition: a lot of maneuvers
+Start stop coordinator stop prohibition: play protection
+Start stop coordinator stop prohibition: system deactivated by driver
+Start stop coordinator stop prohibition: hood
+Start stop coordinator stop prohibition: drivers belt
+Start stop coordinator stop prohibition: drivers door
+Start stop coordinator stop prohibition: gas pedal
+"Start stop coordinator stop prohibition: steering angle
+Start stop coordinator stop prohibition: system error
+Start stop coordinator stop prohibition: driver absense
+Start stop coordinator stop prohibition: temporary driver absence
+Start stop coordinator stop prohibition: gearbox in neutral
+Start stop coordinator stop prohibition: driver behavior
+"Start stop coordinator restart: clutch
+Start stop coordinator restart: gas pedal
+Start stop coordinator restart: push button
+Start stop coordinator restart: lever to reverse
+Start stop coordinator restart: moving vehicle
+Start stop coordinator restart: steering wheel
+multiplex for motor cooling vent
+motor triggers OBD indicator
+particle filter indicator activated
+"gas system indicator or preheating
+no oil level available
+oil overflow warning deactivated
+initialization of positioning
+driving cycle detected
+normed conditions detected
+warm-up cycle detected
+parking system request to lower radio volume
+parking system malfunctioning
+parking system asks start stop to stop the engine
+display is showing parking system for the rear
+display is showing parking system for the front
+parking system show at least one obstacle in the rear
+parking system show at least one obstacle in the front
+parking system sound generator rear active
+sound output is mute (e.g. lever in P)
+parking system sound generator front active
+parking assist requests display
+show bar indicating distance to next maneuver
+symbol to request the driver to brake
+driving forward/backward while parking
+transversal er longitudinal parking spot
+automated steering active
+Screens show multi-maneuver parking
+parking spot determined
+parking spot left or right
+position good to activate parking
+symbol showing parking assist is on standby
+ahead road information is available in ADAS quality
+"0: ambiguous location
+Flag for the most probable path
+PSD_Abz_Abzweigerichtung
+PSD_Abz_ADAS_Qualitaet
+PSD_Abz_Geschwindigkeit_Typ
+PSD_Abz_wahrscheinlichster_Pfad
+PSD_Ges_Geschwindigkeit_Typ
+road segment is a bridge
+"map quality
+"border to city area
+road segment is a tunnel
+"route guidance active
+radio AM tuning
+radio turned on
+RV_Dark_Screen
+RV_GL_LWS_Fehler
+RV_GL_Trailer_connect
+RV_GL_Trunk_open
+RV_System_aktiv
+RV_Video_on
+light sensor broken
+light sensor present
+rain sensor broken
+rain sensor present
+Close windows because of rain
+sunroof tilt stage 1
+sunroof tilt stage 3
+sunroof blind stage
+sunroof blind is calibrated
+sunroof blind is overheated
+force limiter sunroof blind
+sunroof is calibrated
+sunroof overheated
+force limiter sunroof
+error turn signal lever
+activation turn signal left
+activation turn signal right
+activation high beam
+activation headlight flasher
+FAS_Taster_Fehler
+FAS_Taster
+signal shows if steering wheel heating strom is active
+activation horn
+gear lever is in P and locked verified
+windshield cleaning
+wiper lever in interval position for rear wiper
+clean rear window
+wiper lever in interval position
+front light cleaning
+wipe once
+wiper error
+wiper speed 1
+wiper speed 2
+unfold mirrors
+fold mirrors
+state trailer assist
+left mirror selected
+right mirror selected
+Mirror joystick left for passanger side
+Mirror joystick up for passanger side
+Mirror joystick right for passanger side
+Mirror joystick down for passanger side
+Mirror joystick left for driver side
+Mirror joystick up for driver side
+Mirror joystick right for driver side
+Mirror joystick down for driver side
+push button mirror heating
+calibrate mirror
+mirrors folding selected
+Mirror joystick left
+Mirror joystick up
+SP_Spiegelverstellschalter_Fe000
+Mirror joystick right
+Mirror joystick down
+SWA_FT_RueckLED
+SWA_Infostufe_SWA_li
+SWA_Infostufe_SWA_re
+SWA_rel_Nichtverf
+SWA_Sta_aktiv
+SWA_Sta_passiv
+SWA_Warnung_SWA_li
+SWA_Warnung_SWA_re
+GW_KD_Fehler
+SI_BUS_01
+SI_BUS_02
+SI_BUS_03
+SI_BUS_06
+SI_BUS_07
+SI_BUS_08
+SI_NWDF
+SI_Sammelfehler
+bluetooth connection state
+phone turn on
+Deactivation of ambiente lighting at the passenger door if vehicle leaving warning is active
+passenger window moving up
+passenger window moving down
+passenger window is blocked
+passenger window is between 4mm and closed
+passenger window is calibrated
+passenger window is up
+passenger window auto closing triggered
+passenger window auto opening triggered
+passenger window manual closing triggered
+passenger window manual opening triggered
+passenger window lift overheated
+passenger door in safe mode (unable to open from inside)
+error children safety lock passenger side
+push button car lock passengers side
+passenger window lift block expectation top
+push button lock passenger door
+passenger door key lock open
+passenger door key lock close
+Mirror detached passengers side
+BT_Sp_Blk_def
+passenger door open or not completely closed
+mirror heating active
+status mirror heating passengers side
+Mirror on passengers side moving up/down
+Mirror on passengers side moving left/right
+outside passenger door opener pulled
+inside passenger door opener pulled
+door ecu in passenger side rear present
+passenger door opened
+Force limiter active passenger side
+push button to unlock the car passenger side pressed
+passenger window lift block expectation bottom
+passenger door locked
+passenger door is getting closed automatically
+Deactivation of ambiente lighting at the driver door if vehicle leaving warning is active
+vehicle leaving warning user interface broken
+wakeup vehicle leaving warning
+enable the remote control of the passenger seat from the rear
+insulating glass driver door
+driver window moving up
+driver window moving down
+driver window is blocked
+driver window is between 4mm and closed
+driver window is calibrated
+driver window is up
+driver window auto closing triggered
+driver window auto opening triggered
+driver window manual closing triggered
+driver window manual opening triggered
+driver window lift overheated
+driver door in safe mode (unable to open from inside)
+open trunk lid triggered
+activation/deactivation invehicle observation
+error children safety lock drivers side
+children safety lock left
+children safety lock right
+push button children safety lock left
+push button children safety lock right
+push button car lock drivers side
+driver window lift block expectation top
+push button lock driver door
+driver door key lock open
+driver door key lock close
+Mirror detached drivers side
+FT_Sp_Blk_def
+driver door open or not completely closed
+status mirror heating drivers side
+Mirror on drivers side moving up/down
+Mirror on drivers side moving left/right
+lane change assist butten pressed
+outside driver door opener pulled
+problem with push button to unlock fuel door
+button to unlock fuel door pressed
+inside driver door opener pulled
+door ecu in driver side rear present
+driver door opened
+Force limiter active drivers side
+push button to unlock the car pressed on drivers side
+driver window lift block expectation bottom
+Driver door locked
+driver door is getting closed automatically
+approval for moving side window blind
+approval deacceleration request
+standby request ESP
+force activation ESP
+UH_DLS
+gear lever initializing
+GE_Stoppverbot_Anz_07
+GE_Tipschaltempf_verfuegbar
+WBA_Segeln_aktiv
+WFS_Betrieb_Lesespule
+WFS_ELV_authorisiert
+WFS_ID_Geb_autorisiert_in_Kl15
+WFS_ID_Geb_autorisiert
+WFS_ID_Geb_steckt
+WFS_Klemmenfreigabe
+WFS_LF_Aktiv
+WFS_Safe
+WFS_Verbauinfo_ELV
+WFS_GoTrigger
+WFS_Trigger_TranspID
+BCM1_SRA_aktiv
+status: washing in front active
+windshield wiper active
+windshield wiper blocked
+windshield wiper broken
+windshield wiper normal speed
+windshield wiper hidden in rest position
+windshield wiper fast speed
+windshield wiper
+ZFH_BFS_AutoHoch
+ZFH_BFS_AutoTief
+ZFH_BFS_ManHoch
+ZFH_BFS_ManTief
+ZFH_FS_AutoHoch
+ZFH_FS_AutoTief
+ZFH_FS_ManHoch
+ZFH_FS_ManTief
+BCM_BF_Spg_Absenkung
+BCM_Spg_Synchron
+passanger window is up
+passanger window is down
+driver window is up
+driver window is down
+passanger side rear window is up
+passanger side rear window is down
+driver side rear window is up
+driver side rear window is down
+VIP_Freigabe
+VIP_Sensor_betaetigt
+open passenger door
+open driver door
+Open vehicle requested by Key
+Open vehicle requested by Keyless Entry
+cenral locking: unlock passenger front door
+cenral locking: lock passenger front door
+cenral locking: unlock driver door
+cenral locking: lock driver door
+cenral locking: unlock rear door passenger side
+cenral locking: lock rear door passenger side
+cenral locking: unlock rear door driver side
+cenral locking: lock rear door driver side
+Unlock gloove box
+Lock gloove box
+LED control
+door ecu takes over LED control
+softtouch used
+fold mirrors
+Convertable open
+Convertable closed
+deactivate safe lock
+activate safe lock
+open passenger door
+open driver door
+Open vehicle requested by Key
+Open vehicle requested by Keyless Entry
+locking again after timeout
+window controls enabled
+glove box can be opened
+BCM_Komfortfkt_Freigabe
+error fuel door
+Convertable roof could be closed or opened
+DWA_aktiv
+something in Range related to the central locking
+warning key fob battery
+key fob: unlock
+key fob: car finder
+key fob: open trunk
+key fob: unlock all doors
+key fob: lock all doors
+key fob: panik => flash and honk
+key fob: lock
+HBFS_gesafet
+HBFS_verriegelt
+trunk completly closed
+trunk closed and snapped into first hook
+HFS_gesafet
+HFS_verriegelt
+IRUE_aktiv
+IRUE_Taster_Fkts_LED
+front seat passenger door open
+Single door unlocking
+driver door open
+safe lock current state external
+safe lock target state external
+cenral locking: rear door passenger side open
+status trunk lid
+unlock trunk lid only
+cenral locking: rear door driver side open
+status rear windoe
+central locking: target state available
+central locking: sun shade up
+central locking: sun shade down
+central locking: sun SAD up
+central locking: sun SAD down
+central locking: safe lock active
+fuel door open
+safe lock current state external
+safe lock target state external
+safe lock current state internal
+safe lock target state internal

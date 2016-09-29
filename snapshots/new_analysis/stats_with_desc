@@ -1,0 +1,867 @@
+s_acc_02_acc_anzeige_zeitluecke.newdump 12381 13435 0.00455245 0.00478187 0.995218	Adaptive Cruise Control: 
+s_acc_02_acc_optischer_fahrerhinweis.newdump 64 683 3.46565e-05 1.51141e-05 0.999985	optical take over request for driver from adaptive cruise control
+s_acc_02_acc_tachokranz.newdump 12139 13195 0.00424778 0.176631 0.823369	additional state and adjustments of the red indicated area of the adaptive cruise control in cluster
+s_acc_02_acc_typ_tachokranz.newdump 387 207 0 0.813886 0.186114	depending on the country setting of the adaptive cruise control this signal shortens the range of the red LEDs in cluster
+s_acc_02_acc_typ_tachokranz_unten.newdump 281 313 0 0.6538 0.346199	triggers LED below minimal speed to set
+s_acc_06_acc_anfahren.newdump 433 1077 0.000238359 0.000122195 0.999878	Adaptive Cruise Control: command start-up
+s_acc_06_acc_anhalten.newdump 446 1091 0.000243975 0.00195233 0.998047	Adaptive Cruise Control: command stop
+s_acc_06_acc_minimale_bremsung.newdump 4381 5297 0.00172141 0.0103269 0.989673	Adaptive Cruise Control: command minimum breaking
+s_acc_07_acc_anfahren.newdump 435 1079 0.00023949 0.000122281 0.999877	Adaptive Cruise Control: command start-up
+s_acc_07_acc_anhalten.newdump 446 1091 0.000243975 0.00195233 0.998047	Adaptive Cruise Control: command stop
+s_acc_10_anb_cm_info.newdump 1 596 6.55253e-07 1.17947e-07 1	mode of automatic emergency brake
+s_acc_10_anb_teilbremsung_freigabe.newdump 11 608 6.19003e-06 1.9612e-06 0.999998	Allowance of partial emergency braking to electronic stability program
+s_acc_10_anb_zielbremsung_freigabe.newdump 33 632 1.87107e-05 1.2476e-05 0.999987	Allowance of full emergency braking to electronic stability program
+s_acc_10_awv1_anf_prefill.newdump 808 1633 0.000298916 0.000118909 0.999881	command to ESP: activate Prefill
+s_acc_10_awv2_freigabe.newdump 29 632 1.49863e-05 4.43458e-06 0.999995	AWV2_Freigabe
+s_acc_10_awv_halten.newdump 4 600 2.2883e-06 3.06626e-06 0.999997	Request to hold vehicle still after emerency braking to a full stop and trigger to observe driver interaction
+s_acc_10_pcf_freigabe.newdump 708 1528 0.00025856 4.80679e-05 0.999952	Allowance for front precrash system to operate
+s_airbag_01_ab_gurtwarn_vb.newdump 112 713 6.41244e-05 0.000649455 0.99935	front-seat passenger not fastened; Information in instrument cluster
+s_airbag_01_ab_gurtwarn_vf.newdump 4629 4164 0.000810793 0.0345478 0.965452	driver not fastened; Information in instrument cluster
+s_airbag_01_ab_lampe.newdump 2307 2687 0.000517847 0.00249271 0.997507	Airbag light on/off
+s_airbag_01_ab_mkb_gueltig.newdump 2629 2156 0.000392685 0.999986 1.35514e-05	airbag: multi collision breaking activated
+s_airbag_01_ab_stellgliedtest.newdump 3 598 1.64036e-06 9.73308e-07 0.999999	airbag: indicator actuator
+s_airbag_01_ab_vb_deaktiviert.newdump 2339 2748 0.000534306 0.00134868 0.998651	indicator passenger airbag activated
+s_bcm_01_aps_tongeber_defekt.newdump 2014 617 0.0006587 2.27138e-06 0.999997	APS_Tongeber_defekt
+s_bcm_01_bcm1_afs_lampe.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_AFS_Lampe
+s_bcm_01_bcm1_easyentry_status.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_EasyEntry_Status
+s_bcm_01_bcm1_hinweis_lichtnachlauf.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_Hinweis_Lichtnachlauf
+s_bcm_01_bcm1_kl_15_hw_erkannt.newdump 5514 3463 0.000842446 0.979998 0.0200014	BCM1_Kl_15_HW_erkannt
+s_bcm_01_bcm1_kl_15_sig_hw_erkannt.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_Kl_15_Sig_HW_erkannt
+s_bcm_01_bcm1_lenksaeule_aktiv.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_Lenksaeule_aktiv
+s_bcm_01_bcm1_licht_warn.newdump 2039 652 0.000640935 1.70077e-05 0.999983	BCM1_Licht_Warn
+s_bcm_01_bcm1_mh_schalter.newdump 2161 800 0.000592327 0.00324807 0.996752	BCM1_MH_Schalter
+s_bcm_01_bcm1_mh_wiv_schalter.newdump 2136 762 0.000579438 0.0029737 0.997026	BCM1_MH_WIV_Schalter
+s_bcm_01_bcm1_nv_taster.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_NV_switch shows if the NightVision-button in the auto light switch module is currently pressed.
+s_bcm_01_bcm1_rueckfahrlicht_schalter.newdump 9357 8763 0.00245041 0.00783101 0.992169	reversing light switch from MQB/MLBevo: ; The gear informatin is transmitted non debounced. ; Automatic gear: for a short time the R-gear is displayed. The debouncing has to be implemented in the receiver
+s_bcm_01_bcm1_valet_parking_taster.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_Valet_Parking_Taster
+s_bcm_01_bcm1_warnblink_taster.newdump 2183 807 0.000692217 1.02081e-05 0.999989	warning lights button
+s_bcm_01_bcm_bremsbelag_sensor.newdump 2014 617 0.0006587 2.27138e-06 0.999997	indicator brake pad
+s_bcm_01_bcm_bremsfluessigkeit_sensor.newdump 2014 617 0.0006587 2.27138e-06 0.999997	indicator brake fluid
+s_bcm_01_bcm_eco_charisma_taste.newdump 3144 1820 0.00109319 4.80331e-05 0.999952	BCM_Eco_Charisma_Taste
+s_bcm_01_bcm_hdf_betaetigt.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM_HDF_betaetigt
+s_bcm_01_bcm_hybrid_startstopp_taste.newdump 2866 1593 0.000838726 3.16718e-05 0.999968	BCM_Hybrid_StartStopp_Taste
+s_bcm_01_bcm_kuehlmittel_sensor_02.newdump 2014 617 0.0006587 2.27138e-06 0.999997	status cooling fluid
+s_bcm_01_bcm_kuehlmittel_sensor.newdump 2014 617 0.0006587 2.27138e-06 0.999997	status cooling fluid
+s_bcm_01_bcm_offroad_taste.newdump 2014 617 0.0006587 2.27138e-06 0.999997	activation Offroad-button
+s_bcm_01_bcm_waschwasser_sensor.newdump 9457 8097 0.00454911 0.0718416 0.928158	"signal sensorelectrodes for washer water ; reserve up to date
+s_bcm_01_gong_tfl_umschaltung.newdump 2014 617 0.0006587 2.27138e-06 0.999997	Gong_TFL_Umschaltung
+s_bcm_kessy_01_ky_entriegeln.newdump 2526 3003 0.00146822 0.00205811 0.997942	KY_Entriegeln
+s_bcm_kessy_01_ky_kessyentryexit_akt.newdump 146 419 0.000144819 7.40838e-06 0.999992	KY_KessyEntryExit_Akt
+s_bcm_kessy_01_ky_softtouch.newdump 50 293 5.82101e-05 1.66698e-05 0.999983	KY_Softtouch
+s_bcm_kessy_01_ky_verriegeln.newdump 2368 2420 0.000874139 0.000170761 0.999829	KY_Verriegeln
+s_bcm_kessy_02_ky_goauthent_resp.newdump 2137 2463 0.00119707 3.07694e-05 0.999969	KY_GoAuthent_Resp
+s_bcm_kessy_02_ky_gotransponder_id.newdump 2145 2359 0.00114296 3.26582e-05 0.999967	KY_GoTransponder_ID
+s_bcm_kessy_02_ky_id_geber_1.newdump 6380 6592 0.00619512 0.000155117 0.999844	KY_ID_Geber_1
+s_bcm_kessy_02_ky_id_geber_2.newdump 28369 28413 0.0149027 0.000376104 0.999624	KY_ID_Geber_2
+s_bcm_kessy_02_ky_key_minder.newdump 30221 30312 0.0146278 0.000371662 0.999628	KY_Key_Minder
+s_bcm_kessy_02_ky_uhf_pulse_empf.newdump 247 538 0.000233468 5.65834e-06 0.999994	KY_UHF_Pulse_Empf
+s_bem_02_bem_emlin_ungueltig.newdump 612 1328 0.000209596 1.38541e-05 0.999986	energy signals are invalid
+s_bem_02_bem_rek_aktiv.newdump 10519 11271 0.00267867 0.665238 0.334762	approval for recuperation from battery energie management
+s_blinkmodi_02_blinken_li_fzg_takt.newdump 643323 638710 0.204703 0.0406942 0.959306	Blinking left (car pulse)
+s_blinkmodi_02_blinken_li_kombi_takt.newdump 643323 638710 0.204703 0.0406942 0.959306	Blinking left (instrument pulse)
+s_blinkmodi_02_blinken_re_fzg_takt.newdump 473219 468605 0.149404 0.0296495 0.97035	Blinking right (car pulse)
+s_blinkmodi_02_blinken_re_kombi_takt.newdump 473219 468605 0.149404 0.0296495 0.97035	Blinking right (instrument pulse)
+s_blinkmodi_02_bm_autobahn.newdump 2014 618 0.000657042 2.26566e-06 0.999997	status comfort flashing
+s_blinkmodi_02_bm_crash.newdump 2016 620 0.000657819 1.73566e-05 0.999982	BM_Crash
+s_blinkmodi_02_bm_dwa_alarm.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_DWA_Alarm
+s_blinkmodi_02_bm_dwa_ein.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_DWA_ein
+s_blinkmodi_02_bm_gdo.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_GDO
+s_blinkmodi_02_bm_hd_oeffnung_angelernt.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_HD_Oeffnung_angelernt
+s_blinkmodi_02_bm_links.newdump 39533 39042 0.0122268 0.0807401 0.91926	BM_links
+s_blinkmodi_02_bm_nba_n_codiert_n_aktiv.newdump 9333 7924 0.00221027 0.0282251 0.971775	BM_NBA_n_codiert_n_aktiv
+s_blinkmodi_02_bm_not_bremsung.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_Not_Bremsung
+s_blinkmodi_02_bm_panik.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_Panik
+s_blinkmodi_02_bm_recas.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_Recas
+s_blinkmodi_02_bm_rechts.newdump 45047 44554 0.013953 0.0586822 0.941318	BM_rechts
+s_blinkmodi_02_bm_rollenmodus_blinken.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_Rollenmodus_Blinken
+s_blinkmodi_02_bm_taxi_notalarm.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_Taxi_Notalarm
+s_blinkmodi_02_bm_telematik.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_Telematik
+s_blinkmodi_02_bm_warnblinken.newdump 2101 726 0.000639941 0.000560096 0.99944	hazard light
+s_blinkmodi_02_bm_wbt_beleuchtung.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BM_WBT_Beleuchtung
+s_blinkmodi_02_bm_zv_auf.newdump 2420 1053 0.000631429 7.66975e-05 0.999923	BM_ZV_auf
+s_blinkmodi_02_bm_zv_zu.newdump 7502 2486 0.00162551 0.000111942 0.999888	flashing at central locking closed
+s_charisma_03_cha_fahrer_umschaltung.newdump 1043 1731 0.000498434 0.000127411 0.999872	CHA_Fahrer_Umschaltung
+s_diagnose_01_kombi_02_alt.newdump 432 1130 0.000154957 0.00010831 0.999891	Kombi_02_alt
+s_diagnose_01_uhrzeit_01_alt.newdump 431 1129 0.000154269 0.000107918 0.999892	Uhrzeit_01_alt
+s_dimmung_01_di_display_nachtdesign.newdump 3099 1714 0.000601313 0.293136 0.706864	DI_Display_Nachtdesign
+s_einheiten_01_kbi_einheit_streckenanz.newdump 2014 617 0.0006587 2.27138e-06 0.999997	KBI_Einheit_Streckenanz
+s_einheiten_01_kbi_einheit_temp.newdump 2014 617 0.0006587 2.27138e-06 0.999997	KBI_Einheit_Temp
+s_einheiten_01_kbi_einheit_uhrzeit.newdump 2014 617 0.0006587 2.27138e-06 0.999997	KBI_Einheit_Uhrzeit
+s_einheiten_01_kbi_mfa_v_einheit_02.newdump 2014 617 0.0006587 2.27138e-06 0.999997	KBI_MFA_v_Einheit_02
+s_elv_01_elv_01_sendestatus.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_01_Sendestatus
+s_elv_01_elv_abbruch_anf_klemmenfreigabe.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Abbruch_Anf_Klemmenfreigabe
+s_elv_01_elv_anf_klemme_15.newdump 3745 1734 0.00106042 0.979286 0.020714	ELV_Anf_Klemme_15
+s_elv_01_elv_anf_klemme_50.newdump 3392 1716 0.00133867 0.000283304 0.999716	ELV_Anf_Klemme_50
+s_elv_01_elv_anf_klemme_s.newdump 3452 1416 0.000931749 0.981835 0.0181647	ELV_Anf_Klemme_S
+s_elv_01_elv_anlernmodus.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Anlernmodus
+s_elv_01_elv_entriegelt.newdump 3350 1269 0.000882655 0.982946 0.0170539	ELV_Entriegelt
+s_elv_01_elv_klemmenfreigabe.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Klemmenfreigabe
+s_elv_01_elv_lebenszustand.newdump 2338 17 0.000565268 1 0	ELV_Lebenszustand
+s_elv_01_elv_led_gelb.newdump 2857 1164 0.00108263 0.000204833 0.999795	ELV_LED_Gelb
+s_elv_01_elv_led_rot.newdump 3297 1602 0.00126303 0.000771883 0.999228	ELV_LED_Rot
+s_elv_01_elv_p_verriegelt.newdump 3323 1204 0.00132851 0.0259195 0.97408	ELV_P_verriegelt
+s_elv_01_elv_txt_bremse.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Txt_Bremse
+s_elv_01_elv_txt_defekt.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Txt_Defekt
+s_elv_01_elv_txt_kupplung.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Txt_Kupplung
+s_elv_01_elv_txt_lkg_bewegen.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Txt_Lkg_Bewegen
+s_elv_01_elv_txt_panikabschaltung.newdump 2036 368 0.00123577 2.86168e-05 0.999971	ELV_Txt_Panikabschaltung
+s_elv_01_elv_txt_p_gang.newdump 2131 487 0.00117984 0.000283818 0.999716	ELV_Txt_P_Gang
+s_elv_01_elv_txt_pn_gang.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Txt_PN_Gang
+s_elv_01_elv_txt_werkstatt.newdump 2014 341 0.00125651 4.33279e-06 0.999995	ELV_Txt_Werkstatt
+s_elv_01_elv_verriegelt.newdump 3266 1353 0.00102989 0.020606 0.979394	ELV_Verriegelt
+s_elv_01_elv_zat_betaetigt.newdump 5021 3492 0.00234709 0.000476274 0.999523	ELV_ZAT_betaetigt
+s_elv_01_kst_aut_abschaltung_zuendung.newdump 2014 341 0.00125651 4.33279e-06 0.999995	KST_aut_Abschaltung_Zuendung
+s_elv_01_kst_txt_komfortabschaltung.newdump 2014 341 0.00125651 4.33279e-06 0.999995	KST_Txt_Komfortabschaltung
+s_elv_01_kst_unterdr_zuendungsmeldung.newdump 2014 341 0.00125651 4.33279e-06 0.999995	KST_Unterdr_Zuendungsmeldung
+s_epb_01_epb_daa_randbed_erf.newdump 19026 19635 0.0041705 0.96002 0.0399798	EPB_DAA_Randbed_erf
+s_epb_01_epb_freig_verzoeg_anf.newdump 6 609 3.55105e-06 1.95022e-06 0.999998	EPB_Freig_Verzoeg_Anf
+s_epb_01_epb_qbit_pedalweg_kuppl.newdump 1785 1491 0.000292809 0.570815 0.429185	EPB_QBit_Pedalweg_Kuppl
+s_epb_01_epb_qbit_schalterpos.newdump 1 602 3.25722e-07 1.30748e-08 1	EPB_QBit_Schalterpos
+s_epb_02_epb_akustik.newdump 8 609 4.51997e-06 5.81162e-06 0.999994	electric parking brake acustic warning
+s_epb_02_epb_autoholdlampe.newdump 545 1168 0.000334456 0.00300711 0.996993	automated holding of the brake aktiv
+s_epb_02_epb_fehlerlampe_gelb.newdump 1 599 3.25814e-07 1.02606e-06 0.999999	electric parking brake yellow error indicator
+s_epb_02_epb_funktionslampe.newdump 4903 4785 0.000965189 0.0291879 0.970812	parking brake closed
+s_esp_02_esp_notbremsanzeige.newdump 15 621 8.58077e-06 8.99877e-06 0.999991	ESP_Notbremsanzeige
+s_esp_02_esp_qbit_gierrate.newdump 8822 9359 0.00238907 0.00229726 0.997703	ESP_QBit_Gierrate
+s_esp_02_esp_qbit_laengsbeschl.newdump 8822 9359 0.00238907 0.00229726 0.997703	ESP_QBit_Laengsbeschl
+s_esp_02_esp_qbit_querb.newdump 8822 9359 0.00238907 0.00229726 0.997703	ESP_QBit_Querb
+s_esp_05_ecd_bremslicht.newdump 6854 7806 0.00267513 0.0068826 0.993117	ECD_Bremslicht
+s_esp_05_ecd_nicht_verfuegbar.newdump 3287 3333 0.000650686 0.0240993 0.975901	ECD_nicht_verfuegbar
+s_esp_05_esp_autohold_aktiv.newdump 547 1172 0.000335427 0.00300497 0.996995	ESP_Autohold_aktiv
+s_esp_05_esp_autohold_standby.newdump 74 697 3.82007e-05 0.0514136 0.948586	ESP_Autohold_Standby
+s_esp_05_esp_bremsruck_awv2.newdump 18 626 9.71587e-06 1.03352e-06 0.999999	ESP_Bremsruck_AWV2
+s_esp_05_esp_fahrer_bremst.newdump 220931 221842 0.0658211 0.225889 0.774111	ESP_Fahrer_bremst
+s_esp_05_esp_status_anfahrhilfe.newdump 11116 12456 0.00348261 0.0300923 0.969908	ESP_Status_Anfahrhilfe
+s_esp_05_esp_status_bremsdruck.newdump 343097 344012 0.103191 0.195294 0.804706	ESP_Status_Bremsdruck
+s_esp_05_esp_status_bremsentemp.newdump 35 648 1.73649e-05 0.000116299 0.999883	ESP_Status_Bremsentemp
+s_esp_05_esp_verz_epb_aktiv.newdump 6 609 3.54883e-06 3.03743e-07 0.999999	ESP_Verz_EPB_aktiv
+s_esp_05_esp_verzoeg_epb_verf.newdump 9359 8822 0.00193624 0.998146 0.00185404	ESP_Verzoeg_EPB_verf
+s_esp_05_esp_verz_tsk_aktiv.newdump 13296 14283 0.00517005 0.0131108 0.986889	ESP_Verz_TSK_aktiv
+s_esp_07_esp_rollenmodus_deaktivieren.newdump 2722 4079 0.000560666 0.958451 0.0415492	ESP_Rollenmodus_Deaktivieren
+s_esp_08_esp_zt_rueckk_umsetz.newdump 41 650 2.24217e-05 1.51778e-05 0.999985	ESP_ZT_Rueckk_Umsetz
+s_esp_10_esp_qbit_wegimpuls_hl.newdump 4875 5619 0.00131063 2.11326e-05 0.999979	ESP_QBit_Wegimpuls_HL
+s_esp_10_esp_qbit_wegimpuls_hr.newdump 4875 5619 0.00131063 2.11326e-05 0.999979	ESP_QBit_Wegimpuls_HR
+s_esp_10_esp_qbit_wegimpuls_vl.newdump 4875 5619 0.00131063 2.11326e-05 0.999979	ESP_QBit_Wegimpuls_VL
+s_esp_10_esp_qbit_wegimpuls_vr.newdump 4875 5619 0.00131063 2.11326e-05 0.999979	ESP_QBit_Wegimpuls_VR
+s_esp_20_esp_stoppverbot_anz_02.newdump 46 662 2.36948e-05 0.000203201 0.999797	ESP_Stoppverbot_Anz_02
+s_esp_20_esp_wiederstart_anz_02.newdump 5 603 1.93931e-06 2.51469e-05 0.999975	ESP_Wiederstart_Anz_02
+s_esp_21_abs_bremsung.newdump 92 721 4.74536e-05 1.49126e-05 0.999985	"anti-lock braking system
+s_esp_21_asr_anf.newdump 3610 4683 0.00122574 0.000342161 0.999658	ASR_Anf
+s_esp_21_asr_tastung_passiv.newdump 24 632 1.50008e-05 0.000540898 0.999459	ASR_Tastung_passiv
+s_esp_21_ebv_eingriff.newdump 985 1848 0.000362011 0.000151231 0.999849	EBV_Eingriff
+s_esp_21_eds_eingriff.newdump 1511 2399 0.000561852 0.000104287 0.999896	EDS_Eingriff
+s_esp_21_esp_anhaltevorgang_acc_aktiv.newdump 421 1073 0.000231532 0.000314115 0.999686	shows if ACC-stopping is active
+s_esp_21_esp_diagnose.newdump 7 607 3.90808e-06 5.67265e-05 0.999943	ESP_Diagnose
+s_esp_21_esp_eingriff.newdump 258 957 0.000118262 1.96818e-05 0.99998	intervention driving-dynamics controller (electronic stability program)
+s_esp_21_esp_haltebestaetigung.newdump 901 1569 0.000487077 0.00426376 0.995736	electronic stability program stop confirmation 
+s_esp_21_esp_tastung_passiv.newdump 24 632 1.50008e-05 0.000540898 0.999459	ESP_Tastung_passiv
+s_esp_21_msr_anf.newdump 65 678 3.64363e-05 3.69305e-06 0.999996	MSR_Anf
+s_esp_24_abs_lampe.newdump 11637 11822 0.00302475 0.0404603 0.95954	ABS_Lampe
+s_esp_24_esp_lampe.newdump 9509 9549 0.00237373 0.0240187 0.975981	ESP_Lampe
+s_esp_24_esp_off_lampe.newdump 9198 9735 0.00248421 0.00276824 0.997232	ESP_Off_Lampe
+s_esp_24_esp_wegimp_ueberlauf.newdump 2805 3873 0.000544618 0.96845 0.0315503	ESP_Wegimp_Ueberlauf
+s_fla_01_fla_aktiv.newdump 1200 965 0.000353752 0.999158 0.000842175	FLA_aktiv
+s_fla_01_fla_aufblenden.newdump 41 342 5.08903e-05 0.000196999 0.999802	FLA_Aufblenden
+s_fla_01_fla_sensor_blockiert.newdump 2 304 2.59039e-06 0.000187804 0.999812	FLA_Sensor_blockiert
+s_fla_01_isp_ec_aktiv.newdump 818 485 0.000243242 0.996524 0.00347605	ISP_EC_aktiv
+s_fla_01_isp_kompass_aktiv.newdump 232 69 0 0.89656 0.10344	ISP_Kompass_aktiv
+s_fla_01_isp_taste_betaetigt.newdump 4 306 5.38731e-06 7.00862e-07 0.999999	ISP_Taste_betaetigt
+s_gateway_71_abs_bremsung.newdump 92 714 4.7839e-05 1.50572e-05 0.999985	"anti-lock braking system
+s_gateway_71_ecd_bremslicht.newdump 6774 7710 0.00269418 0.00696674 0.993033	ECD_Bremslicht
+s_gateway_71_epb_01_alt.newdump 6373 7031 0.00171627 0.0209577 0.979042	EPB_01_alt
+s_gateway_71_epb_qbit_pedalweg_kuppl.newdump 1779 1492 0.000296968 0.564947 0.435053	EPB_QBit_Pedalweg_Kuppl
+s_gateway_71_esp_05_alt.newdump 6365 7026 0.00171754 0.021011 0.978989	ESP_05_alt
+s_gateway_71_esp_21_alt.newdump 6373 7031 0.0017163 0.0209426 0.979057	ESP_21_alt
+s_gateway_71_esp_eingriff.newdump 247 936 0.000115303 1.99133e-05 0.99998	intervention driving-dynamics controller (electronic stability program)
+s_gateway_71_esp_qbit_v_signal.newdump 3235 4004 0.000917015 7.32071e-05 0.999927	ESP_QBit_v_Signal
+s_gateway_71_kamera_fsh_aktiv.newdump 191 844 9.2659e-05 5.21547e-06 0.999995	Kamera_FSH_aktiv
+s_gateway_71_kamera_status_alt.newdump 1746 1433 0.000285084 0.569073 0.430927	Kamera_Status_alt
+s_gateway_71_lwi_01_alt.newdump 6467 7123 0.00173659 0.0199864 0.980013	LWI_01_alt
+s_gateway_71_lwi_qbit_lenkradwinkel.newdump 3271 4039 0.000923545 0.000116216 0.999884	LWI_QBit_Lenkradwinkel
+s_gateway_71_parkhilfe_01_alt.newdump 3372 3433 0.000694807 0.0242023 0.975798	Parkhilfe_01_alt
+s_gateway_71_ph_anf_audioabsenkung.newdump 3548 4852 0.000923704 0.0126968 0.987303	parking system request to lower radio volume
+s_gateway_72_bcm_01_alt.newdump 2716 3560 0.000812195 0.000382019 0.999618	BCM_01_alt
+s_gateway_72_bcm1_mh_schalter.newdump 230 846 0.000102109 0.00373901 0.996261	BCM1_MH_Schalter
+s_gateway_72_bcm1_rueckfahrlicht_schalter.newdump 7187 8579 0.0021173 0.00780964 0.99219	reversing light switch from MQB/MLBevo: ; The gear informatin is transmitted non debounced. ; Automatic gear: for a short time the R-gear is displayed. The debouncing has to be implemented in the receiver
+s_gateway_72_bcm_rueckfahrlicht_anf.newdump 3968 5306 0.00105649 0.00705195 0.992948	BCM_Rueckfahrlicht_Anf
+s_gateway_72_bh_blinker_li.newdump 37319 38815 0.0119826 0.0759093 0.924091	activation turn signal left
+s_gateway_72_bh_blinker_re.newdump 42871 44363 0.0137458 0.052988 0.947012	activation turn signal right
+s_gateway_72_bh_fernlicht.newdump 112 730 6.52736e-05 9.58868e-06 0.99999	activation high beam
+s_gateway_72_klima_11_alt.newdump 1149 1821 0.000331081 9.05175e-05 0.999909	Klima_11_alt
+s_gateway_72_klima_sensor_02_alt.newdump 689 1413 0.000229573 3.31329e-05 0.999967	Klima_Sensor_02_alt
+s_gateway_72_licht_anf_01_alt.newdump 416 1098 0.000150915 0.000117936 0.999882	Licht_Anf_01_alt
+s_gateway_72_smls_01_alt.newdump 1943 2839 0.000598146 0.000266627 0.999733	SMLS_01_alt
+s_gateway_72_waschen_vorne_aktiv.newdump 3302 4180 0.0012478 0.000509218 0.999491	status: washing in front active
+s_gateway_72_wfs_01_alt.newdump 1235 1992 0.000380457 4.23437e-05 0.999957	WFS_01_alt
+s_gateway_72_wfs_id_geb_autorisiert_in_kl15.newdump 3357 3297 0.000574589 0.980686 0.0193143	WFS_ID_Geb_autorisiert_in_Kl15
+s_gateway_72_wischer_01_alt.newdump 2815 3638 0.000835574 0.000412668 0.999587	Wischer_01_alt
+s_gateway_72_wischer_vorne_aktiv.newdump 7960 8978 0.00272818 0.0602109 0.939789	windshield wiper active
+s_gateway_72_wwss_01_alt.newdump 2789 3609 0.000827485 0.000403221 0.999597	windshield wiper
+s_gateway_72_zv_02_alt.newdump 498 1177 0.000168815 2.37215e-05 0.999976	ZV_02_alt
+s_gateway_72_zv_bt_offen.newdump 581 1235 0.000207557 0.00462641 0.995373	front seat passenger door open
+s_gateway_72_zv_ft_offen.newdump 6615 6314 0.00135606 0.0253761 0.974624	driver door open
+s_gateway_72_zv_hd_offen.newdump 2667 2465 0.000458829 0.0102828 0.989717	status trunk lid
+s_gateway_73_esp_07_alt.newdump 6505 7163 0.00174644 0.0176845 0.982315	ESP_07_alt
+s_gateway_73_esp_rollenmodus_deaktivieren.newdump 2674 4014 0.000559608 0.958594 0.0414061	ESP_Rollenmodus_Deaktivieren
+s_gateway_73_getriebe_11_alt.newdump 1967 1814 0.000367009 0.459072 0.540928	Getriebe_11_alt
+s_gateway_73_getriebe_13_alt.newdump 1976 1824 0.000369653 0.459076 0.540924	Getriebe_13_alt
+s_gateway_73_mo_qbit_drehzahl_01.newdump 3307 4079 0.000935487 3.32162e-05 0.999967	MO_QBit_Drehzahl_01
+s_gateway_73_motor_12_alt.newdump 5378 6098 0.00145977 0.0013058 0.998694	Motor_12_alt
+s_gateway_78_gw_78_va_13.newdump 2615 17 0.000290773 1 0	GW_78_va_13
+s_gateway_78_gw_78_va_14.newdump 2615 17 0.000290773 1 0	GW_78_va_14
+s_gateway_78_gw_78_va_15.newdump 2615 17 0.000290773 1 0	GW_78_va_15
+s_gateway_78_gw_78_va_16.newdump 2615 17 0.000290773 1 0	GW_78_va_16
+s_gateway_78_gw_78_va_17.newdump 2615 17 0.000290773 1 0	GW_78_va_17
+s_gateway_78_lh_eps_02_alt.newdump 9367 7944 0.00220072 0.0281416 0.971858	LH_EPS_02_alt
+s_gateway_78_lin_2_alt.newdump 2014 618 0.000657226 2.2663e-06 0.999997	LIN_2_alt
+s_gateway_78_lr_hzg_taster_on_off.newdump 2014 618 0.000657226 2.2663e-06 0.999997	LR_HZG_Taster_on_off
+s_gateway_78_mfl_signalhorn_err.newdump 2014 618 0.000657226 2.2663e-06 0.999997	MFL_Signalhorn_Err
+s_gateway_78_mfl_signalhorn.newdump 2014 618 0.000657226 2.2663e-06 0.999997	MFL_Signalhorn
+s_gateway_78_parkhilfe_01_alt.newdump 2615 17 0.000290773 1 0	Parkhilfe_01_alt
+s_getriebe_06_ge_wh_sperre.newdump 3311 3728 0.0012027 0.973529 0.0264709	GE_WH_Sperre
+s_getriebe_12_ge_drehzahlmesser_daempfung.newdump 434275 435100 0.237145 0.102745 0.897255	GE_Drehzahlmesser_Daempfung
+s_getriebe_12_ge_freigabe_synchro.newdump 1248 1673 0.00102797 0.000280134 0.999719	GE_Freigabe_Synchro
+s_getriebe_13_ge_freig_langfr_schutzmom.newdump 19392 19463 0.00935587 0.0241332 0.975867	GE_Freig_Langfr_Schutzmom
+s_getriebe_14_ge_freigabe_verfallsinfo_wfs.newdump 27 344 2.40991e-05 0.00152459 0.998475	GE_Freigabe_Verfallsinfo_WFS
+s_getriebe_14_ge_lfr_adaption.newdump 59779 60572 0.0245415 0.947328 0.0526721	GE_LFR_Adaption
+s_gra_acc_01_gra_abbrechen.newdump 4792 3642 0.00165345 0.00010586 0.999894	cruise control: off with saving; Adaptive Cruise Control: soft off
+s_gra_acc_01_gra_fehler.newdump 2014 620 0.000656651 2.26431e-06 0.999997	error in (adaptive) cruise control
+s_gra_acc_01_gra_hauptschalter.newdump 5952 3979 0.00099054 0.926828 0.0731723	Position CC/ACC-main switch; 
+s_gra_acc_01_gra_limiter.newdump 2014 620 0.000656651 2.26431e-06 0.999997	Position Limiter-Button
+s_gra_acc_01_gra_lim_taste_verfuegbar.newdump 2014 620 0.000656651 2.26431e-06 0.999997	presence of limiter mode button at cruise control stick
+s_gra_acc_01_gra_tip_hoch.newdump 9138 8071 0.00322086 0.000298952 0.999701	hold-to-run control device Tip Up/increase speed
+s_gra_acc_01_gra_tip_runter.newdump 8493 7346 0.00322821 0.000242347 0.999757	hold-to-run control device Tip down/reduce speed
+s_gra_acc_01_gra_tip_setzen.newdump 10397 9445 0.00344084 0.000260189 0.99974	hold-to-run control device set
+s_gra_acc_01_gra_tip_stufe_2.newdump 2014 620 0.000656651 2.26431e-06 0.999997	"Signal is showing
+s_gra_acc_01_gra_tip_wiederaufnahme.newdump 8725 7607 0.00327919 0.000326041 0.999674	hold-to-run  resumption
+s_gra_acc_01_gra_typ_hauptschalter.newdump 2014 620 0.000656651 2.26431e-06 0.999997	main switch adaptive and regular cruise control
+s_hca_01_hca_01_lm_offsign.newdump 72817 73167 0.0739386 0.0162656 0.983734	HCA_01_LM_OffSign
+s_hca_01_hca_01_sendestatus.newdump 12584 12937 0.0125357 0.0437721 0.956227	HCA_01_Sendestatus
+s_hlr_01_em_aktiv.newdump 19516 17304 0.00446548 0.0957796 0.90422	EM_aktiv
+s_hlr_01_em_verbraucherabsch_anz.newdump 2071 684 0.000667106 0.0438999 0.9561	EM_Verbraucherabsch_Anz
+s_hlr_01_fsh_led.newdump 2014 619 0.000655598 2.26068e-06 0.999997	FSH_LED
+s_hlr_01_hlr_lrh_freigabe.newdump 19600 17714 0.00414813 0.934615 0.0653845	HLR_LRH_Freigabe
+s_hlr_01_hlr_sih_freigabe_fond.newdump 2014 619 0.000655598 2.26068e-06 0.999997	HLR_SIH_Freigabe_Fond
+s_hlr_01_hsh_led.newdump 2114 715 0.000628541 0.00684681 0.993153	HSH_LED
+s_hlr_01_kl_spg_hzg_aus.newdump 19703 17587 0.00465881 0.0906387 0.909361	KL_Spg_Hzg_aus
+s_hsp_01_hsp_endlage_ausgefahren.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HSP_Endlage_ausgefahren
+s_hsp_01_hsp_endlage_eingefahren.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HSP_Endlage_eingefahren
+s_hsp_01_hsp_motor_def.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HSP_Motor_def
+s_hsp_01_hsp_taster_error.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HSP_Taster_Error
+s_hsp_01_hsp_warnung_text.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HSP_Warnung_Text
+s_hsp_01_hsp_warnung_ton.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HSP_Warnung_Ton
+s_innenlicht_11_bcm1_di_rampe_innenlicht.newdump 2014 618 0.000657247 2.26637e-06 0.999997	BCM1_DI_Rampe_Innenlicht
+s_innenlicht_11_bcm1_di_rampe_leselicht.newdump 2014 618 0.000657247 2.26637e-06 0.999997	BCM1_DI_Rampe_Leselicht
+s_innenlicht_11_bcm1_innenlicht_gedimmt_h.newdump 8801 6142 0.00151627 0.0328833 0.967117	BCM1_Innenlicht_gedimmt_H
+s_innenlicht_11_bcm1_innenlicht_gedimmt_v.newdump 8801 6142 0.00151627 0.0328833 0.967117	BCM1_Innenlicht_gedimmt_V
+s_innenlicht_11_bcm1_innenlicht_h.newdump 2014 618 0.000657247 2.26637e-06 0.999997	indicator internal lightning rear
+s_innenlicht_11_bcm1_innenlicht_v.newdump 2014 618 0.000657247 2.26637e-06 0.999997	indicator internal lightning front
+s_innenlicht_11_bcm1_leselicht_anf_hl.newdump 2014 618 0.000657247 2.26637e-06 0.999997	request reading light rear left
+s_innenlicht_11_bcm1_leselicht_anf_hr.newdump 2014 618 0.000657247 2.26637e-06 0.999997	request reading light rear right
+s_innenlicht_11_bcm1_leselicht_anf_vl.newdump 2014 618 0.000657247 2.26637e-06 0.999997	request reading light front left
+s_innenlicht_11_bcm1_leselicht_anf_vr.newdump 2014 618 0.000657247 2.26637e-06 0.999997	request reading light front right
+s_innenlicht_11_bcm1_leuchten_aus.newdump 2014 618 0.000657247 2.26637e-06 0.999997	BCM1_Leuchten_Aus
+s_innenlicht_11_il_bel_bfs_ausstieg.newdump 2611 1273 0.000646789 0.00466913 0.995331	IL_Bel_BFS_Ausstieg
+s_innenlicht_11_il_bel_fs_ausstieg.newdump 8667 6376 0.00159238 0.0257179 0.974282	IL_Bel_FS_Ausstieg
+s_innenlicht_11_il_bel_hbfs_ausstieg.newdump 2016 620 0.000658024 4.62404e-05 0.999953	IL_Bel_HBFS_Ausstieg
+s_innenlicht_11_il_bel_hfs_ausstieg.newdump 2016 620 0.000658024 4.62404e-05 0.999953	IL_Bel_HFS_Ausstieg
+s_innenlicht_11_il_innenlicht_aktiv.newdump 8801 6142 0.00151627 0.0328833 0.967117	IL_Innenlicht_aktiv
+s_innenlicht_11_il_klemme_30g_aktiv.newdump 5839 1177 0.000710082 0.984486 0.0155139	IL_Klemme_30G_aktiv
+s_kamera_status_kamera_fsh_aktiv.newdump 221 561 0.000190864 8.49714e-06 0.999991	Kamera_FSH_aktiv
+s_kessy_03_ky_bfs_sensor_auf.newdump 180 271 0.00032421 5.41688e-05 0.999945	KY_BFS_Sensor_Auf
+s_kessy_03_ky_bfs_sensor_zu.newdump 44 125 0.00019194 0.000374209 0.999623	KY_BFS_Sensor_Zu
+s_kessy_03_ky_fs_sensor_auf.newdump 711 762 0.000675182 0.00989822 0.990101	KY_FS_Sensor_Auf
+s_kessy_03_ky_fs_sensor_zu.newdump 102 185 0.00024917 0.000222326 0.999776	KY_FS_Sensor_Zu
+s_kessy_04_ky_fzg_verlassen_erkannt.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Fzg_Verlassen_erkannt
+s_kessy_04_ky_fzg_zugang_erkannt.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Fzg_Zugang_erkannt
+s_kessy_04_ky_gestik_hd.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Gestik_HD
+s_kessy_04_ky_gong_600.newdump 2137 495 0.00109101 0.00223791 0.997762	KY_Gong_600
+s_kessy_04_ky_id_geber1_im_fzg.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_ID_Geber1_im_Fzg
+s_kessy_04_ky_id_geber2_im_fzg.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_ID_Geber2_im_Fzg
+s_kessy_04_ky_id_geber3_im_fzg.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_ID_Geber3_im_Fzg
+s_kessy_04_ky_id_geber4_im_fzg.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_ID_Geber4_im_Fzg
+s_kessy_04_ky_id_geber_suche.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_ID_Geber_Suche
+s_kessy_04_ky_passiv_autolock_akt.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Passiv_Autolock_Akt
+s_kessy_04_ky_passiv_autolock_menue.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Passiv_Autolock_Menue
+s_kessy_04_ky_passiv_autolock.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Passiv_Autolock_Menue
+s_kessy_04_ky_passiv_autounlock.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Passiv_Autounlock
+s_kessy_04_ky_startknopf_bel.newdump 2014 341 0.00125643 4.33251e-06 0.999995	KY_Startknopf_Bel
+s_klemmen_status_01_bcm_remotestart_betrieb.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request remote start operation mode
+s_klemmen_status_01_bcm_remotestart_kl15_anf.newdump 2014 619 0.000655576 2.26061e-06 0.999997	body control module requests to turn ignition on
+s_klemmen_status_01_bcm_remotestart_mo_start.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request remote start the engine
+s_klemmen_status_01_kst_fahrerhinweis_1.newdump 2014 619 0.000655576 2.26061e-06 0.999997	show message 1 to driver in cluster
+s_klemmen_status_01_kst_fahrerhinweis_2.newdump 2014 619 0.000655576 2.26061e-06 0.999997	show message 2 to driver in cluster
+s_klemmen_status_01_kst_fahrerhinweis_3.newdump 2014 619 0.000655576 2.26061e-06 0.999997	show message 3 to driver in cluster
+s_klemmen_status_01_kst_fahrerhinweis_4.newdump 2014 619 0.000655576 2.26061e-06 0.999997	show message 4 to driver in cluster
+s_klemmen_status_01_kst_fahrerhinweis_5.newdump 2014 619 0.000655576 2.26061e-06 0.999997	show message 5 to driver in cluster
+s_klemmen_status_01_kst_fahrerhinweis_6.newdump 2014 619 0.000655576 2.26061e-06 0.999997	show message 6 to driver in cluster
+s_klemmen_status_01_kst_warn_p1_zst_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	"warning
+s_klemmen_status_01_kst_warn_p2_zst_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	"warning
+s_klemmen_status_01_zas_kl_15.newdump 5517 3466 0.000843094 0.979983 0.0200166	ignition / Klemme 15 status
+s_klemmen_status_01_zas_kl_50_startanforderung.newdump 2014 619 0.000655576 2.26061e-06 0.999997	Request engine start by driver
+s_klemmen_status_01_zas_kl_infotainment.newdump 2014 619 0.000655576 2.26061e-06 0.999997	Power Infotainment
+s_klemmen_status_01_zas_kl_s.newdump 4728 2560 0.000661951 0.982279 0.0177213	status power Klemme S
+s_klemmen_status_01_zas_kl_x.newdump 2014 619 0.000655576 2.26061e-06 0.999997	status power Klemme X
+s_klima_03_kl_bcme_livetip_freigabe.newdump 2683 1342 0.000889882 0.071946 0.928054	KL_BCmE_Livetip_Freigabe
+s_klima_03_kl_fsh_automatikbetrieb.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_FSH_Automatikbetrieb
+s_klima_03_kl_hyb_asv_hinten_schliessen_anf.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_HYB_ASV_hinten_schliessen_Anf
+s_klima_03_kl_hyb_asv_vorne_schliessen_anf.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_HYB_ASV_vorne_schliessen_Anf
+s_klima_03_kl_hyb_spuelbetrieb_freigabe.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_HYB_Spuelbetrieb_Freigabe
+s_klima_03_kl_kompressorkupplung.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_Kompressorkupplung
+s_klima_03_kl_magnetventil.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_Magnetventil
+s_klima_03_kl_restwaerme_aktiv.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_Restwaerme_aktiv
+s_klima_03_kl_solarluefter_aktiv.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_Solarluefter_aktiv
+s_klima_03_kl_sth_aktiv.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_STH_aktiv
+s_klima_03_kl_stl_aktiv.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_STL_aktiv
+s_klima_03_kl_umluft_taste.newdump 2045 661 0.000642316 0.0194377 0.980562	KL_Umluft_Taste
+s_klima_03_kl_wapu.newdump 2014 616 0.000660607 2.27796e-06 0.999997	KL_WaPu
+s_klima_06_kl_stopp_wiederstart_anz_01.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_01
+s_klima_06_kl_stopp_wiederstart_anz_02.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_02
+s_klima_06_kl_stopp_wiederstart_anz_03.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_03
+s_klima_06_kl_stopp_wiederstart_anz_04.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_04
+s_klima_06_kl_stopp_wiederstart_anz_05.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_05
+s_klima_06_kl_stopp_wiederstart_anz_06.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_06
+s_klima_06_kl_stopp_wiederstart_anz_07.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_07
+s_klima_06_kl_stopp_wiederstart_anz_08.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_08
+s_klima_06_kl_stopp_wiederstart_anz_09.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_09
+s_klima_06_kl_stopp_wiederstart_anz_std1.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_Std1
+s_klima_06_kl_stopp_wiederstart_anz_std2.newdump 2014 616 0.000660607 2.27795e-06 0.999997	KL_Stopp_Wiederstart_Anz_Std2
+s_klima_11_kl_ac_schalter.newdump 4632 2924 0.000830613 0.692327 0.307673	KL_AC_Schalter
+s_klima_11_kl_drehz_anh.newdump 2014 620 0.0006565 2.26379e-06 0.999997	KL_Drehz_Anh
+s_klima_11_kl_komp_moment_alt.newdump 10782 7521 0.00241774 0.0151372 0.984863	KL_Komp_Moment_alt
+s_klima_11_kl_nachtr_stopp_anf.newdump 4297 3289 0.00109592 0.000277563 0.999722	KL_nachtr_Stopp_Anf
+s_klima_11_kl_vorwarn_komp_ein.newdump 15422 13801 0.00380076 0.672757 0.327243	KL_Vorwarn_Komp_ein
+s_klima_11_kl_vorwarn_zuheizer_ein.newdump 2014 620 0.0006565 2.26379e-06 0.999997	KL_Vorwarn_Zuheizer_ein
+s_klima_11_kl_zustand.newdump 9784 5770 0.00164672 0.884337 0.115663	KL_Zustand
+s_klima_12_fsh_taster.newdump 2014 619 0.000657073 2.26577e-06 0.999997	FSH_Taster
+s_klima_12_kl_beschlagsgefahr.newdump 14416 13110 0.00419252 0.371601 0.628399	KL_Beschlagsgefahr
+s_klima_12_kl_lrh_taster.newdump 2014 619 0.000657073 2.26577e-06 0.999997	KL_LRH_Taster
+s_klima_12_kl_zuheizer_freigabe.newdump 2014 619 0.000657073 2.26577e-06 0.999997	KL_Zuheizer_Freigabe
+s_klima_sensor_01_fs_responseerror.newdump 2014 618 0.000657247 2.26637e-06 0.999997	FS_ResponseError
+s_klima_sensor_02_bcm1_fstatus_aussentemp_ungef.newdump 2014 618 0.000657231 2.26631e-06 0.999997	BCM1_FStatus_Aussentemp_ungef
+s_kombi_01_kbi_abs_lampe.newdump 5892 4453 0.00137267 0.00140605 0.998594	instrument cluster: ABS (AntiBlockSystem)-safety-lamp turned on
+s_kombi_01_kbi_airbag_lampe.newdump 4611 3164 0.000966774 0.00150953 0.99849	instrument cluster: Airbag-lamp turned on
+s_kombi_01_kbi_anzeigefehler_nv.newdump 2014 619 0.000657221 2.26628e-06 0.999997	cluster reports error in showing the night vision image
+s_kombi_01_kbi_anzeigestatus_acc.newdump 2014 619 0.000657221 2.26628e-06 0.999997	Status ACC-information in non permanent display area
+s_kombi_01_kbi_ara_in_anzeige.newdump 2014 619 0.000657221 2.26628e-06 0.999997	trailer assist is shown in cluster
+s_kombi_01_kbi_bkl_lampe.newdump 4656 3217 0.000978185 0.00142663 0.998573	trigger brake check light in cluster
+s_kombi_01_kbi_einheit_tacho.newdump 2014 619 0.000657221 2.26628e-06 0.999997	unit of the analog velocity in cluster
+s_kombi_01_kbi_esp_lampe.newdump 10512 9156 0.0027729 0.00147852 0.998521	trigger of the error indicator of the eletronic stability program inside the cluster
+s_kombi_01_kbi_fehler_anzeige_acc.newdump 2014 619 0.000657221 2.26628e-06 0.999997	Feedback to adaptive cruise control about broken warnings/messages
+s_kombi_01_kbi_handbremse.newdump 2014 619 0.000657221 2.26628e-06 0.999997	hand brake information from instrument cluster. The ; signal only refers to the conventional hand brake status
+s_kombi_01_kbi_im_stellgliedtest.newdump 2016 621 0.000657848 5.7465e-06 0.999994	testing gauges in cluster
+s_kombi_01_kbi_konsistenz_acc.newdump 2014 619 0.000657221 2.26628e-06 0.999997	Feedback to adaptive cruise control about error in communication
+s_kombi_01_kbi_lenkung_lampe.newdump 4531 3084 0.000936482 0.00124539 0.998754	trigger of ther error indicator steering inside the cluster
+s_kombi_01_kbi_mfa_v_einheit_01.newdump 2014 619 0.000657221 2.26628e-06 0.999997	choosen unit of the velocity signal
+s_kombi_01_kbi_nv_in_anzeige.newdump 2014 619 0.000657221 2.26628e-06 0.999997	Nightvision image is shown in cluster
+s_kombi_01_kbi_oeldruck_schalter.newdump 2014 619 0.000657221 2.26628e-06 0.999997	state of oil pressure
+s_kombi_01_kbi_oeldruckwarnung.newdump 2014 619 0.000657221 2.26628e-06 0.999997	oil pressure warning in cluster
+s_kombi_01_kbi_pla_in_anzeige.newdump 2106 734 0.000660634 0.00159381 0.998406	information of the parking assist are currently shown in cluster
+s_kombi_01_kbi_sila_gueltig.newdump 2616 17 0.000290769 1 0	trigger airbag safty check in cluster
+s_kombi_01_kbi_tankwarnung.newdump 2085 687 0.000669032 0.0102584 0.989741	"driver warning
+s_kombi_01_kbi_vorglueh_system_lampe.newdump 4600 3165 0.000965218 0.000371854 0.999628	feedback indicator for preheating the engine in cluster
+s_kombi_02_kbi_fstatus_tank.newdump 2014 618 0.000657273 2.26646e-06 0.999997	KBI_FStatus_Tank
+s_kombi_02_kbi_oelwechsel_durchgefuehrt.newdump 2014 618 0.000657273 2.26646e-06 0.999997	KBI_Oelwechsel_durchgefuehrt
+s_kombi_02_kbi_qbit_aussen_temp_gef.newdump 5282 2072 0.00118388 0.000239457 0.99976	KBI_QBit_Aussen_Temp_gef
+s_kombi_02_kbi_rdk_kalibrier_anf.newdump 2014 618 0.000657273 2.26646e-06 0.999997	KBI_RDK_Kalibrier_Anf
+s_kombi_02_kbi_reserve_warnung_sek.newdump 2014 618 0.000657273 2.26646e-06 0.999997	KBI_Reserve_Warnung_Sek
+s_kombi_03_kbi_bcme_aktiv.newdump 2014 618 0.000657273 2.26646e-06 0.999997	display BCmE active (Efficiency Program on Board Computer or fuel effiiency ; indication on display)
+s_kombi_03_kbi_nachtanken_erkannt.newdump 2014 618 0.000657273 2.26646e-06 0.999997	status information refill modus
+s_kombi_03_kbi_sparhinweis_quittiert.newdump 2014 618 0.000657273 2.26646e-06 0.999997	KBI_Sparhinweis_quittiert
+s_kombi_03_kbi_variante_usa.newdump 2014 618 0.000657273 2.26646e-06 0.999997	KBI_Variante_USA
+s_ldw_02_ldw_seite_dlctlc.newdump 297071 296767 0.153025 0.608523 0.391476	LDW_Seite_DLCTLC
+s_ldw_02_ldw_status_led_gelb.newdump 3345 3643 0.00322837 0.0747406 0.925259	LDW_Status_LED_gelb
+s_ldw_02_ldw_status_led_gruen.newdump 3403 3763 0.00325688 0.0636831 0.936316	LDW_Status_LED_gruen
+s_lh_eps_03_eps_vz_blw.newdump 876593 876648 0.222444 0.522446 0.477554	EPS_VZ_BLW
+s_licht_anf_01_bcm1_abblendlicht_anf.newdump 3644 2375 0.000746186 0.335072 0.664928	request low beam
+s_licht_anf_01_bcm1_adaptive_lichtvert_anf.newdump 2493 140 0.000328663 0.889293 0.110707	Enable adaptive light distribution
+s_licht_anf_01_bcm1_allwetterlicht_anf.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request all weather light
+s_licht_anf_01_bcm1_autobahnlicht_anf.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request highway light
+s_licht_anf_01_bcm1_ch_lh_aktiv.newdump 2014 619 0.000655576 2.26061e-06 0.999997	state comming / leaving home
+s_licht_anf_01_bcm1_fernlicht_anf.newdump 2997 1715 0.000906777 8.70513e-05 0.999913	request high beam
+s_licht_anf_01_bcm1_gleitende_leuchtw_anf.newdump 2016 622 0.000655193 2.86686e-06 0.999997	Enable adaptive front light
+s_licht_anf_01_bcm1_glw_fernlicht_anf.newdump 2056 665 0.000677419 5.55484e-06 0.999994	force adaptive front light to high beam
+s_licht_anf_01_bcm1_kurvenlicht_links_anf.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request curve light left
+s_licht_anf_01_bcm1_kurvenlicht_rechts_anf.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request curve light right
+s_licht_anf_01_bcm1_nebellicht_anf.newdump 2024 631 0.000658847 0.00551387 0.994486	request fog light
+s_licht_anf_01_bcm1_nebelschluss_ahg_anf.newdump 2016 623 0.000653011 3.17849e-06 0.999997	request tail fog light trailer
+s_licht_anf_01_bcm1_nebelschluss_fzg_anf.newdump 2016 623 0.000653011 3.17849e-06 0.999997	request tail fog light
+s_licht_anf_01_bcm1_parklicht_li_anf.newdump 2030 637 0.000639294 6.98352e-05 0.99993	request parking light left
+s_licht_anf_01_bcm1_parklicht_re_anf.newdump 2025 630 0.000642044 5.44034e-05 0.999945	request parking light right
+s_licht_anf_01_bcm1_regenlicht_anf.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request rain light
+s_licht_anf_01_bcm1_schlusslicht_anf.newdump 3549 2273 0.000710244 0.340788 0.659212	request tail light
+s_licht_anf_01_bcm1_standlicht_anf.newdump 3549 2273 0.000710244 0.340788 0.659212	request sidelight
+s_licht_anf_01_bcm1_tagfahrlicht_anf.newdump 5680 3817 0.000958385 0.765906 0.234094	request daytime driving light
+s_licht_anf_01_bcm1_touristen_licht_anf.newdump 2014 619 0.000655576 2.26061e-06 0.999997	request tourist light
+s_licht_anf_01_bcm1_umfeldleuchten_anf.newdump 2681 1288 0.000655756 0.00630195 0.993698	request surround light
+s_licht_anf_01_bcm_rueckfahrlicht_anf.newdump 6035 5382 0.00133541 0.00702276 0.992977	request rear driving light
+s_licht_hinten_01_bcm2_bremsl_durch_ecd.newdump 8868 7816 0.00308231 0.00689838 0.993101	brakelight (ECD-braking : Electronically Controlled Deceleration)
+s_licht_hinten_01_lh_3_bremsl_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	3rd brake light broken
+s_licht_hinten_01_lh_aussenlicht_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	outside illumination broken
+s_licht_hinten_01_lh_blinker_hl_akt.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear blinker left
+s_licht_hinten_01_lh_blinker_hr_akt.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear blinker right
+s_licht_hinten_01_lh_blinker_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	turn signal rear left broken
+s_licht_hinten_01_lh_blinker_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	turn signal rear right broken
+s_licht_hinten_01_lh_brems_blk_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights left are broken
+s_licht_hinten_01_lh_brems_blk_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights right are broken
+s_licht_hinten_01_lh_bremslicht_h_aktiv.newdump 227318 226243 0.068004 0.232903 0.767097	rear brake light
+s_licht_hinten_01_lh_bremsl_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	brake signal left broken
+s_licht_hinten_01_lh_bremsl_li_ges_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	brake light left broken
+s_licht_hinten_01_lh_bremsl_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	brake signal right broken
+s_licht_hinten_01_lh_bremsl_re_ges_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	brake light right broken
+s_licht_hinten_01_lh_kennzl_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	license plate illumination broken
+s_licht_hinten_01_lh_nebel_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear left fog light broken
+s_licht_hinten_01_lh_nebel_mi_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	fog light middle broken
+s_licht_hinten_01_lh_nebel_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear right fog light broken
+s_licht_hinten_01_lh_nebelschluss_aktiv.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear fog-light
+s_licht_hinten_01_lh_parklicht_hl_aktiv.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear park light left
+s_licht_hinten_01_lh_parklicht_hr_aktiv.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear park light right
+s_licht_hinten_01_lh_rueckfahrlicht_aktiv.newdump 2014 619 0.000655576 2.26061e-06 0.999997	reverse light
+s_licht_hinten_01_lh_rueckf_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear driving indicator left broken
+s_licht_hinten_01_lh_rueckf_mi_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear driving signal middle broken
+s_licht_hinten_01_lh_rueckf_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	rear driving indicator right broken
+s_licht_hinten_01_lh_schluss_brems_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights left are broken
+s_licht_hinten_01_lh_schluss_brems_nebel_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	left tail light unit short circuitened or disconnected
+s_licht_hinten_01_lh_schluss_brems_nebel_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	right tail light unit short circuitened or disconnected
+s_licht_hinten_01_lh_schluss_brems_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights right are broken
+s_licht_hinten_01_lh_schlusslicht_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	tail light left broken
+s_licht_hinten_01_lh_schlusslicht_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	tail light right broken
+s_licht_hinten_01_lh_schluss_nebel_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights left are broken
+s_licht_hinten_01_lh_schluss_nebel_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights right are broken
+s_licht_hinten_01_lh_sl_brl_blk_li_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights left are broken
+s_licht_hinten_01_lh_sl_brl_blk_re_def.newdump 2014 619 0.000655576 2.26061e-06 0.999997	multiple tail lights right are broken
+s_licht_hinten_01_lh_standlicht_h_aktiv.newdump 2014 619 0.000655576 2.26061e-06 0.999997	parking light rear
+s_licht_vorne_01_bcm1_licht_dunkelheit_aktiv.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_Licht_Dunkelheit_aktiv
+s_licht_vorne_01_bcm1_linksverkehr.newdump 2014 617 0.0006587 2.27138e-06 0.999997	BCM1_Linksverkehr
+s_licht_vorne_01_lv_abbiegelicht_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abbiegelicht_li_def
+s_licht_vorne_01_lv_abbiegelicht_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abbiegelicht_re_def
+s_licht_vorne_01_lv_abblend_fernlicht_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abblend_Fernlicht_li_def
+s_licht_vorne_01_lv_abblend_fernlicht_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abblend_Fernlicht_re_def
+s_licht_vorne_01_lv_abblendlicht_anzeige.newdump 3642 2374 0.000746726 0.335438 0.664562	LV_Abblendlicht_Anzeige
+s_licht_vorne_01_lv_abblendlicht_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abblendlicht_li_def
+s_licht_vorne_01_lv_abblendlicht_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abblendlicht_re_def
+s_licht_vorne_01_lv_abblendlicht_tfl_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abblendlicht_TFL_li_def
+s_licht_vorne_01_lv_abblendlicht_tfl_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Abblendlicht_TFL_re_def
+s_licht_vorne_01_lv_afl_aktiv_anzeige.newdump 4895 3134 0.000804508 0.786804 0.213195	LV_AFL_aktiv_Anzeige
+s_licht_vorne_01_lv_afl_defekt.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_AFL_defekt
+s_licht_vorne_01_lv_aussenlicht_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Aussenlicht_def
+s_licht_vorne_01_lv_blinker_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Blinker_li_def
+s_licht_vorne_01_lv_blinker_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Blinker_re_def
+s_licht_vorne_01_lv_blinker_vl_aktiv.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Blinker_VL_aktiv
+s_licht_vorne_01_lv_blinker_vr_aktiv.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Blinker_VR_aktiv
+s_licht_vorne_01_lv_blk_li_seite_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Blk_li_Seite_def
+s_licht_vorne_01_lv_blk_re_seite_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Blk_re_Seite_def
+s_licht_vorne_01_lv_fernlicht_anzeige.newdump 3093 1811 0.000950639 8.67937e-05 0.999913	LV_Fernlicht_Anzeige
+s_licht_vorne_01_lv_fernlicht_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Fernlicht_li_def
+s_licht_vorne_01_lv_fernlicht_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Fernlicht_re_def
+s_licht_vorne_01_lv_fla_aktiv_anzeige.newdump 2051 666 0.000649472 0.0104666 0.989533	LV_FLA_aktiv_Anzeige
+s_licht_vorne_01_lv_fla_defekt.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_FLA_defekt
+s_licht_vorne_01_lv_fla_sensor_blockiert.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_FLA_Sensor_blockiert
+s_licht_vorne_01_lv_led_scheinwerfer_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_LED_Scheinwerfer_li_def
+s_licht_vorne_01_lv_led_scheinwerfer_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_LED_Scheinwerfer_re_def
+s_licht_vorne_01_lv_nebellicht_anzeige.newdump 2024 629 0.000661971 0.00554009 0.99446	LV_Nebellicht_Anzeige
+s_licht_vorne_01_lv_nebellicht_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Nebellicht_li_def
+s_licht_vorne_01_lv_nebellicht_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Nebellicht_re_def
+s_licht_vorne_01_lv_nebellicht_tfl_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Nebellicht_TFL_li_def
+s_licht_vorne_01_lv_nebellicht_tfl_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Nebellicht_TFL_re_def
+s_licht_vorne_01_lv_nebelschlusslicht_anzeige.newdump 2016 621 0.000656104 3.16163e-06 0.999997	LV_Nebelschlusslicht_Anzeige
+s_licht_vorne_01_lv_standlicht_anzeige.newdump 3549 2274 0.000711367 0.341163 0.658836	LV_Standlicht_Anzeige
+s_licht_vorne_01_lv_standlicht_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Standlicht_li_def
+s_licht_vorne_01_lv_standlicht_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Standlicht_re_def
+s_licht_vorne_01_lv_standlicht_tfl_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Standlicht_TFL_li_def
+s_licht_vorne_01_lv_standlicht_tfl_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Standlicht_TFL_re_def
+s_licht_vorne_01_lv_tagfahrlicht_anzeige.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Tagfahrlicht_Anzeige
+s_licht_vorne_01_lv_tagfahrlicht_li_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Tagfahrlicht_li_def
+s_licht_vorne_01_lv_tagfahrlicht_re_def.newdump 2014 617 0.0006587 2.27138e-06 0.999997	LV_Tagfahrlicht_re_def
+s_lwr_afs_01_afs_abbiegelicht_dimm_anf.newdump 559 34 0 0.971726 0.0282742	AFS_Abbiegelicht_Dimm_Anf
+s_lwr_afs_01_afs_adaptive_lv_verbaut.newdump 34 559 0 0.122369 0.877631	AFS_adaptive_LV_verbaut
+s_lwr_afs_01_afs_fernlicht_status.newdump 42 641 2.66437e-05 3.34609e-06 0.999996	AFS_Fernlicht_Status
+s_lwr_afs_01_afs_status_adaptive_lv.newdump 473 120 0 0.89355 0.10645	AFS_Status_adaptive_LV
+s_lwr_afs_01_afs_verfuegbarkeit_glw.newdump 2324 2718 0.000535015 0.063291 0.936709	AFS_Verfuegbarkeit_GLW
+s_lwr_afs_01_lwr_initialisierungslauf.newdump 2658 2350 0.000398073 0.996101 0.00389843	LWR_Initialisierungslauf
+s_lwr_afs_01_lwr_modus.newdump 11623 12574 0.00385512 0.213433 0.786566	LWR_Modus
+s_lwr_afs_01_lwr_sicherheitsposition.newdump 2553 3036 0.000596702 0.00478205 0.995218	LWR_Sicherheitsposition
+s_lwr_afs_01_lwr_touristenmodus_verbaut.newdump 34 559 0 0.122369 0.877631	LWR_Touristenmodus_verbaut
+s_motor_04_mo_effizienzmodus.newdump 1642 2316 0.000618922 0.353621 0.646379	"For manual switch vehicles
+s_motor_04_mo_kvs_ueberlauf.newdump 2680 3232 0.000476057 0.96979 0.0302099	MO_KVS_Ueberlauf
+s_motor_04_mo_schaltempf_verfbar.newdump 284 316 0 0.647078 0.352922	MO_Schaltempf_verfbar
+s_motor_07_mo_getriebe_kuehlen.newdump 131 710 5.15207e-05 0.00450294 0.995497	MO_Getriebe_kuehlen
+s_motor_07_mo_qbit_ansaugluft_temp.newdump 18948 19057 0.00486792 0.0679332 0.932067	MO_QBit_Ansaugluft_Temp
+s_motor_07_mo_qbit_oel_temp.newdump 2553 2786 0.00051073 0.0117935 0.988206	MO_QBit_Oel_Temp
+s_motor_07_mo_spannungsanf.newdump 35986 37489 0.0109178 0.0207927 0.979207	MO_SpannungsAnf
+s_motor_11_mo_qbit_motormomente.newdump 3447 3499 0.000697444 0.0242405 0.975759	quality bit for engine momentum
+s_motor_11_mo_status_normalbetrieb_01.newdump 17519 17579 0.00383447 0.952418 0.0475814	engine ECU is in regular working mode
+s_motor_14_mo_aussp_anlass.newdump 17526 17587 0.00383461 0.952596 0.0474036	MO_Aussp_Anlass
+s_motor_14_mo_bls.newdump 220526 221427 0.0655626 0.225361 0.774639	MO_BLS
+s_motor_14_mo_fahrer_bremst.newdump 221281 222214 0.0663487 0.221897 0.778103	MO_Fahrer_bremst
+s_motor_14_mo_freigabe_segeln.newdump 3498 3446 0.000596833 0.980566 0.0194338	MO_Freigabe_Segeln
+s_motor_14_mo_interlock.newdump 207590 207120 0.050762 0.0878553 0.912145	MO_Interlock
+s_motor_14_mo_kickdown.newdump 4294 5183 0.0017562 0.00266771 0.997332	MO_Kickdown
+s_motor_14_mo_kl_50.newdump 16690 17479 0.00507077 0.00125189 0.998748	MO_Kl_50
+s_motor_14_mo_kl_75.newdump 5740 5685 0.00112589 0.980991 0.0190091	MO_Kl_75
+s_motor_14_mo_kuppl_schalter.newdump 162919 163227 0.0593791 0.542878 0.457122	MO_Kuppl_schalter
+s_motor_14_mo_motor_laeuft.newdump 17514 17577 0.00383452 0.951499 0.0485007	"The engine control unit provides the information
+s_motor_14_mo_qbit_gangposition.newdump 315 283 0 0.73762 0.26238	MO_QBit_Gangposition
+s_motor_14_mo_qbit_kl_75.newdump 888126 888046 0.235938 0.224982 0.775018	MO_QBit_KL_75
+s_motor_14_mo_startstopp_motorstopp.newdump 15783 17078 0.00489012 0.0488495 0.95115	MO_StartStopp_Motorstopp
+s_motor_14_mo_startstopp_wiederstart.newdump 15250 16590 0.0048228 0.0014285 0.998571	MO_StartStopp_Wiederstart
+s_motor_16_mo_dpf_reg.newdump 1639 2409 0.000620538 0.0631828 0.936817	MO_DPF_reg
+s_motor_16_tsk_qbit_steigung.newdump 192773 192792 0.0531461 0.0846735 0.915326	TSK_QBit_Steigung
+s_motor_17_mo_prio_min_wunschdrehzahl.newdump 1640 2412 0.000620886 0.0631817 0.936818	MO_Prio_MIN_Wunschdrehzahl
+s_motor_20_mo_moment_im_leerlauf.newdump 571816 571897 0.138796 0.329182 0.670817	MO_Moment_im_Leerlauf
+s_motor_20_mo_sig_fahrpedalgradient.newdump 5258880 5259870 2.55921 0.0709738 0.929026	MO_Sig_Fahrpedalgradient
+s_motor_21_mo_stoppverbot_anz_02.newdump 347 798 8.05617e-05 0.00716281 0.992837	motor stop prohibited due to low engine temperature
+s_motor_21_mo_stoppverbot_anz_05.newdump 2915 3386 0.000634875 0.00678402 0.993216	motor stop prohibited due to underpressure braking system
+s_motor_21_mo_stoppverbot_anz_07.newdump 1790 2136 0.00050764 0.0940204 0.905979	motor stop prohibited due to gear sensor
+s_motor_21_mo_stoppverbot_anz_10.newdump 1640 2410 0.000620941 0.0631819 0.936818	motor stop prohibited due to diesel particle filter regeneration
+s_motor_21_mo_wiederstart_anz_01.newdump 5 602 1.9364e-06 3.58211e-06 0.999996	Restart engine due to motor temperature
+s_motor_21_mo_wiederstart_anz_02.newdump 291 972 0.000127901 0.000242605 0.999757	Restart engine due to underpressure in brake booster
+s_motor_21_stst_koord_status_bremspedalkzpt.newdump 4381 4652 0.0012634 0.0239476 0.976052	brakepedal as restart trigger enabled
+s_motor_21_stst_koord_stoppverbot_anz_01.newdump 12567 14015 0.00403137 0.00180964 0.99819	Start stop coordinator stop prohibition: tilted vehicle
+s_motor_21_stst_koord_stoppverbot_anz_02.newdump 40308 40325 0.00967644 0.054803 0.945197	Start stop coordinator stop prohibition: Already restarted
+s_motor_21_stst_koord_stoppverbot_anz_03.newdump 2022 3040 0.00067597 0.00969709 0.990303	Start stop coordinator stop prohibition: a lot of maneuvers
+s_motor_21_stst_koord_stoppverbot_anz_04.newdump 5 607 3.19834e-06 9.05214e-06 0.999991	Start stop coordinator stop prohibition: play protection
+s_motor_21_stst_koord_stoppverbot_anz_05.newdump 587 1234 0.000213499 0.18974 0.810259	Start stop coordinator stop prohibition: system deactivated by driver
+s_motor_21_stst_koord_stoppverbot_anz_06.newdump 34 643 1.75218e-05 0.000669832 0.99933	Start stop coordinator stop prohibition: hood
+s_motor_21_stst_koord_stoppverbot_anz_07.newdump 5239 5181 0.00100867 0.0275731 0.972427	Start stop coordinator stop prohibition: drivers belt
+s_motor_21_stst_koord_stoppverbot_anz_08.newdump 3509 3526 0.000705709 0.0165875 0.983412	Start stop coordinator stop prohibition: drivers door
+s_motor_21_stst_koord_stoppverbot_anz_09.newdump 354989 356463 0.0870497 0.794855 0.205145	Start stop coordinator stop prohibition: gas pedal
+s_motor_21_stst_koord_stoppverbot_anz_10.newdump 13838 14837 0.00535031 0.0126493 0.98735	"Start stop coordinator stop prohibition: steering angle
+s_motor_21_stst_koord_stoppverbot_anz_12.newdump 42 643 1.90127e-05 0.00106935 0.99893	Start stop coordinator stop prohibition: system error
+s_motor_21_stst_koord_stoppverbot_anz_13.newdump 165 803 7.28941e-05 0.00446105 0.995539	Start stop coordinator stop prohibition: driver absense
+s_motor_21_stst_koord_stoppverbot_anz_14.newdump 5281 5224 0.00101879 0.0277505 0.972249	Start stop coordinator stop prohibition: temporary driver absence
+s_motor_21_stst_koord_stoppverbot_anz_16.newdump 62184 62549 0.0225543 0.644634 0.355366	Start stop coordinator stop prohibition: gearbox in neutral
+s_motor_21_stst_koord_stoppverbot_anz_17.newdump 30647 31866 0.0070445 0.936584 0.0634158	Start stop coordinator stop prohibition: driver behavior
+s_motor_21_stst_koord_wiederstart_anz_01.newdump 315684 316774 0.0822367 0.650012 0.349988	"Start stop coordinator restart: clutch
+s_motor_21_stst_koord_wiederstart_anz_02.newdump 256349 257439 0.0901106 0.466288 0.533712	Start stop coordinator restart: gas pedal
+s_motor_21_stst_koord_wiederstart_anz_03.newdump 604 1251 0.000217895 0.188573 0.811427	Start stop coordinator restart: push button
+s_motor_21_stst_koord_wiederstart_anz_04.newdump 2326 3345 0.000788905 0.00538512 0.994615	Start stop coordinator restart: lever to reverse
+s_motor_21_stst_koord_wiederstart_anz_05.newdump 48705 50198 0.0114024 0.909472 0.0905278	Start stop coordinator restart: moving vehicle
+s_motor_21_stst_koord_wiederstart_anz_07.newdump 23 625 1.3352e-05 2.13316e-05 0.999978	Start stop coordinator restart: steering wheel
+s_motor_26_mo_kuehlerluefter_mux.newdump 4937311 4937314 9.93434 0.509287 0.490712	multiplex for motor cooling vent
+s_motor_26_mo_obd2_lampe.newdump 2638 3182 0.000637965 0.00319883 0.996801	motor triggers OBD indicator
+s_motor_26_mo_partikel_lampe.newdump 1385 2090 0.00041395 0.000131715 0.999868	particle filter indicator activated
+s_motor_26_mo_systemlampe.newdump 2556 3132 0.000637222 0.000372715 0.999627	"gas system indicator or preheating
+s_motor_26_wiv_oelstand_nicht_vorhanden.newdump 537 1047 0.000154974 0.190637 0.809363	no oil level available
+s_motor_26_wiv_ueberfuell_deaktiv.newdump 3499 3446 0.000596835 0.980565 0.0194352	oil overflow warning deactivated
+s_navdata_01_nd_init.newdump 2007 1583 0.000266211 0.995755 0.00424486	initialization of positioning
+s_obd_01_obd_driving_cycle.newdump 2683 2453 0.000405415 0.991429 0.00857082	driving cycle detected
+s_obd_01_obd_normed_trip.newdump 1936 2621 0.00035837 0.797927 0.202073	normed conditions detected
+s_obd_01_obd_warm_up_cycle.newdump 381 1008 9.89396e-05 0.303809 0.696191	warm-up cycle detected
+s_parkhilfe_01_ph_anf_audioabsenkung.newdump 3597 4902 0.000903789 0.0123904 0.987609	parking system request to lower radio volume
+s_parkhilfe_01_ph_gestoert.newdump 1035 1720 0.000461372 0.000217293 0.999782	parking system malfunctioning
+s_parkhilfe_01_ph_nachtr_stopp_anf.newdump 35 639 2.11107e-05 5.51285e-06 0.999994	parking system asks start stop to stop the engine
+s_parkhilfe_01_ph_opt_anzeige_h_ein.newdump 1468 2244 0.000480074 0.0108037 0.989196	display is showing parking system for the rear
+s_parkhilfe_01_ph_opt_anzeige_v_ein.newdump 1468 2244 0.000480074 0.0108037 0.989196	display is showing parking system for the front
+s_parkhilfe_01_ph_opt_anz_h_hindernis.newdump 883 1562 0.000349469 0.00216779 0.997832	parking system show at least one obstacle in the rear
+s_parkhilfe_01_ph_opt_anz_v_hindernis.newdump 2185 2989 0.000809196 0.00263191 0.997368	parking system show at least one obstacle in the front
+s_parkhilfe_01_ph_tongeber_h_aktiv.newdump 4874 6243 0.00128511 0.000990626 0.999009	parking system sound generator rear active
+s_parkhilfe_01_ph_tongeber_mute.newdump 1763 2724 0.000451363 0.00449197 0.995508	sound output is mute (e.g. lever in P)
+s_parkhilfe_01_ph_tongeber_v_aktiv.newdump 1731 2582 0.000620867 0.0010612 0.998939	parking system sound generator front active
+s_pla_status_01_pls_anf_anz.newdump 88 367 0.000104069 0.0032876 0.996712	parking assist requests display
+s_pla_status_01_pls_anf_anz_schwellpfeil.newdump 2 257 1.41799e-06 8.52794e-05 0.999914	show bar indicating distance to next maneuver
+s_pla_status_01_pls_bremssymbol.newdump 6 261 7.09007e-06 7.01558e-06 0.999992	symbol to request the driver to brake
+s_pla_status_01_pls_fahrtrichtg_mehrzg.newdump 5 260 5.67197e-06 6.784e-05 0.999931	driving forward/backward while parking
+s_pla_status_01_pls_laengs_querluecke.newdump 48 315 5.81815e-05 0.000284157 0.999715	transversal er longitudinal parking spot
+s_pla_status_01_pls_lenk_aktiv_hinweis.newdump 3 258 2.83597e-06 5.67057e-06 0.999994	automated steering active
+s_pla_status_01_pls_mehrzg_aktiv.newdump 2 257 1.41799e-06 8.52794e-05 0.999914	Screens show multi-maneuver parking
+s_pla_status_01_pls_pl_exist.newdump 294 564 0.000383167 0.000537089 0.999462	parking spot determined
+s_pla_status_01_pls_pl_seite.newdump 47 313 6.16801e-05 0.000307809 0.999692	parking spot left or right
+s_pla_status_01_pls_pos_ok.newdump 300 569 0.000396589 0.000443779 0.999556	position good to activate parking
+s_pla_status_01_pls_standby.newdump 108 379 0.000137424 0.000553018 0.999446	symbol showing parking assist is on standby
+s_psd_01_psd_adas_qualitaet.newdump 4835551 4836097 3.04851 0.357051 0.642948	ahead road information is available in ADAS quality
+s_psd_01_psd_pos_standort.newdump 412563 413422 0.102819 0.713337 0.286663	"0: ambiguous location
+s_psd_01_psd_wahrscheinlichster_pfad.newdump 4667123 4667726 2.94031 0.338071 0.661929	Flag for the most probable path
+s_psd_02_psd_abz_abzweigerichtung.newdump 1662058 1661983 4.67137 0.987093 0.0129061	PSD_Abz_Abzweigerichtung
+s_psd_02_psd_abz_adas_qualitaet.newdump 650713 645224 2.03564 0.992942 0.00705642	PSD_Abz_ADAS_Qualitaet
+s_psd_02_psd_abz_geschwindigkeit_typ.newdump 1633385 1633712 2.13092 0.977351 0.0226486	PSD_Abz_Geschwindigkeit_Typ
+s_psd_02_psd_abz_wahrscheinlichster_pfad.newdump 1194552 1194170 1.88824 0.996083 0.00391626	PSD_Abz_wahrscheinlichster_Pfad
+s_psd_02_psd_ges_geschwindigkeit_typ.newdump 443424 444505 0.129168 0.981756 0.0182435	PSD_Ges_Geschwindigkeit_Typ
+s_psd_02_psd_sys_bruecke.newdump 83651 85311 0.0820853 0.0234129 0.976587	road segment is a bridge
+s_psd_02_psd_sys_digitalisierung.newdump 86751 87485 0.020706 0.980164 0.0198358	"map quality
+s_psd_02_psd_sys_ortschaft.newdump 237893 238056 0.473247 0.993773 0.0062262	"border to city area
+s_psd_02_psd_sys_tunnel.newdump 12 584 0.00267051 0.000550851 0.999338	road segment is a tunnel
+s_psd_02_psd_sys_zielfuehrung.newdump 2558 4605 0.0134148 0.535489 0.464508	"route guidance active
+s_radio_01_ra_am_tuning.newdump 2 595 1.31511e-06 1.98597e-06 0.999998	radio AM tuning
+s_radio_01_ra_radio_on.newdump 2666 2495 0.000411757 0.981931 0.0180687	radio turned on
+s_rear_view_01_rv_dark_screen.newdump 5464 5560 0.0125867 0.843516 0.156483	RV_Dark_Screen
+s_rear_view_01_rv_gl_lws_fehler.newdump 596 673 0.00161223 0.00161174 0.998387	RV_GL_LWS_Fehler
+s_rear_view_01_rv_gl_trailer_connect.newdump 278 187 0.000445899 0.999751 0.000248099	RV_GL_Trailer_connect
+s_rear_view_01_rv_gl_trunk_open.newdump 801 785 0.00169904 0.00906257 0.990936	RV_GL_Trunk_open
+s_rear_view_01_rv_system_aktiv.newdump 7581 7586 0.0180881 0.269357 0.730642	RV_System_aktiv
+s_rear_view_01_rv_video_on.newdump 47 116 0.00024932 0.00302769 0.996969	RV_Video_on
+s_rls_01_ls_defekt.newdump 2014 619 0.000656992 2.26549e-06 0.999997	light sensor broken
+s_rls_01_ls_verbau.newdump 2616 17 0.000290772 1 0	light sensor present
+s_rls_01_rs_defekt.newdump 2014 618 0.000657231 2.26631e-06 0.999997	rain sensor broken
+s_rls_01_rs_verbau.newdump 2616 17 0.000290772 1 0	rain sensor present
+s_rls_01_rs_verglasung_schliessen.newdump 2014 618 0.000657231 2.26631e-06 0.999997	Close windows because of rain
+s_sad_01_md1_lage.newdump 2014 618 0.000657247 2.26637e-06 0.999997	sunroof tilt stage 1
+s_sad_01_md3_lage.newdump 2014 618 0.000657247 2.26637e-06 0.999997	sunroof tilt stage 3
+s_sad_01_mrollo_lage.newdump 2014 618 0.000657247 2.26637e-06 0.999997	sunroof blind stage
+s_sad_01_rollo_normiert.newdump 2014 618 0.000657247 2.26637e-06 0.999997	sunroof blind is calibrated
+s_sad_01_rollo_thermoschutz.newdump 2014 618 0.000657247 2.26637e-06 0.999997	sunroof blind is overheated
+s_sad_01_rollo_uekb_aktiv.newdump 2014 618 0.000657247 2.26637e-06 0.999997	force limiter sunroof blind
+s_sad_01_sad_normiert.newdump 2014 618 0.000657247 2.26637e-06 0.999997	sunroof is calibrated
+s_sad_01_sad_thermoschutz.newdump 2014 618 0.000657247 2.26637e-06 0.999997	sunroof overheated
+s_sad_01_sad_uekb_aktiv.newdump 2014 618 0.000657247 2.26637e-06 0.999997	force limiter sunroof
+s_smls_01_bh_blinker_fehler.newdump 2014 618 0.000657271 2.26645e-06 0.999997	error turn signal lever
+s_smls_01_bh_blinker_li.newdump 39864 39372 0.012348 0.076386 0.923614	activation turn signal left
+s_smls_01_bh_blinker_re.newdump 45450 44954 0.0141037 0.0530931 0.946907	activation turn signal right
+s_smls_01_bh_fernlicht.newdump 2126 753 0.000678169 1.15768e-05 0.999988	activation high beam
+s_smls_01_bh_lichthupe.newdump 3084 1803 0.000945152 5.16073e-05 0.999948	activation headlight flasher
+s_smls_01_fas_taster_fehler.newdump 2014 618 0.000657271 2.26645e-06 0.999997	FAS_Taster_Fehler
+s_smls_01_fas_taster.newdump 2835 1521 0.00097079 3.73725e-05 0.999962	FAS_Taster
+s_smls_01_lrh_aktiv.newdump 2014 618 0.000657271 2.26645e-06 0.999997	signal shows if steering wheel heating strom is active
+s_smls_01_smls_hupe.newdump 2169 816 0.000651884 1.39674e-05 0.999986	activation horn
+s_smls_01_smls_p_verriegelt_plausibel.newdump 2014 618 0.000657271 2.26645e-06 0.999997	gear lever is in P and locked verified
+s_smls_01_wh_frontwaschen.newdump 5433 4326 0.00164315 0.000514215 0.999486	windshield cleaning
+s_smls_01_wh_heckintervall.newdump 3812 2551 0.00114764 0.0259163 0.974083	wiper lever in interval position for rear wiper
+s_smls_01_wh_heckwaschen.newdump 2582 1303 0.000708333 0.00013616 0.999864	clean rear window
+s_smls_01_wh_intervall.newdump 3782 2134 0.000913058 0.339518 0.660481	wiper lever in interval position
+s_smls_01_wh_sra.newdump 2014 618 0.000657271 2.26645e-06 0.999997	front light cleaning
+s_smls_01_wh_tipwischen.newdump 4515 3294 0.00150683 0.000119989 0.99988	wipe once
+s_smls_01_wh_wischer_fehler.newdump 2014 618 0.000657271 2.26645e-06 0.999997	wiper error
+s_smls_01_wh_wischerstufe1.newdump 2687 1383 0.000808868 0.00928501 0.990715	wiper speed 1
+s_smls_01_wh_wischerstufe2.newdump 2128 769 0.000649933 0.00222643 0.997773	wiper speed 2
+s_spiegel_01_sp_abklappen.newdump 2795 1345 0.000611638 0.000666617 0.999333	unfold mirrors
+s_spiegel_01_sp_anklappen.newdump 3512 2206 0.00082517 0.000725175 0.999275	fold mirrors
+s_spiegel_01_sp_ara_status.newdump 2014 618 0.000657276 2.26647e-06 0.999997	state trailer assist
+s_spiegel_01_sp_auswahl_li.newdump 2382 981 0.000631992 0.105604 0.894395	left mirror selected
+s_spiegel_01_sp_auswahl_re.newdump 2505 1090 0.000657587 0.120711 0.879289	right mirror selected
+s_spiegel_01_sp_bt_links.newdump 2234 870 0.000695158 2.98389e-05 0.99997	Mirror joystick left for passanger side
+s_spiegel_01_sp_bt_oben.newdump 2252 896 0.000680505 2.99017e-05 0.99997	Mirror joystick up for passanger side
+s_spiegel_01_sp_bt_rechts.newdump 2254 901 0.000669195 3.4571e-05 0.999965	Mirror joystick right for passanger side
+s_spiegel_01_sp_bt_unten.newdump 2301 940 0.000729717 3.22347e-05 0.999967	Mirror joystick down for passanger side
+s_spiegel_01_sp_ft_links.newdump 2174 810 0.000670946 2.5424e-05 0.999974	Mirror joystick left for driver side
+s_spiegel_01_sp_ft_oben.newdump 2168 798 0.000663715 2.11393e-05 0.999979	Mirror joystick up for driver side
+s_spiegel_01_sp_ft_rechts.newdump 2165 787 0.000686698 2.36777e-05 0.999976	Mirror joystick right for driver side
+s_spiegel_01_sp_ft_unten.newdump 2183 817 0.000666262 2.15866e-05 0.999978	Mirror joystick down for driver side
+s_spiegel_01_sp_hzg_taster.newdump 2215 687 0.000546301 0.221128 0.778872	push button mirror heating
+s_spiegel_01_sp_normieren.newdump 2784 1336 0.000618136 0.000133709 0.999866	calibrate mirror
+s_spiegel_01_sp_s_klappen.newdump 2080 698 0.000640365 0.00158317 0.998417	mirrors folding selected
+s_spiegel_01_sp_s_links.newdump 2403 1061 0.000741677 5.08949e-05 0.999949	Mirror joystick left
+s_spiegel_01_sp_s_oben.newdump 2454 1114 0.000758514 5.21375e-05 0.999948	Mirror joystick up
+s_spiegel_01_sp_spiegelverstellschalter_fe000.newdump 2014 618 0.000657276 2.26647e-06 0.999997	SP_Spiegelverstellschalter_Fe000
+s_spiegel_01_sp_s_rechts.newdump 2436 1095 0.000741943 5.54871e-05 0.999944	Mirror joystick right
+s_spiegel_01_sp_s_unten.newdump 2564 1219 0.000828862 5.99454e-05 0.99994	Mirror joystick down
+s_swa_01_swa_ft_rueckled.newdump 718 620 0.000488201 0.999793 0.000206496	SWA_FT_RueckLED
+s_swa_01_swa_infostufe_swa_li.newdump 5669 5977 0.00761387 0.0183608 0.981638	SWA_Infostufe_SWA_li
+s_swa_01_swa_infostufe_swa_re.newdump 5808 6115 0.00763675 0.0166774 0.983322	SWA_Infostufe_SWA_re
+s_swa_01_swa_rel_nichtverf.newdump 623 721 0.000624187 0.000177122 0.999822	SWA_rel_Nichtverf
+s_swa_01_swa_sta_aktiv.newdump 22412 22761 0.0239862 0.802904 0.197096	SWA_Sta_aktiv
+s_swa_01_swa_sta_passiv.newdump 23185 23030 0.0229775 0.249791 0.750208	SWA_Sta_passiv
+s_swa_01_swa_warnung_swa_li.newdump 966 1116 0.00105852 0.00142973 0.99857	SWA_Warnung_SWA_li
+s_swa_01_swa_warnung_swa_re.newdump 864 1009 0.000949254 0.00141886 0.99858	SWA_Warnung_SWA_re
+s_systeminfo_01_gw_kd_fehler.newdump 424 207 4.85222e-06 0.804529 0.195471	GW_KD_Fehler
+s_systeminfo_01_si_bus_01.newdump 550 1209 0.000170303 0.00325502 0.996745	SI_BUS_01
+s_systeminfo_01_si_bus_02.newdump 3644 4431 0.000978462 0.0239341 0.976066	SI_BUS_02
+s_systeminfo_01_si_bus_03.newdump 1000 1659 0.000281217 0.007418 0.992582	SI_BUS_03
+s_systeminfo_01_si_bus_06.newdump 5666 6386 0.00154651 0.0275125 0.972487	SI_BUS_06
+s_systeminfo_01_si_bus_07.newdump 1 595 3.28295e-07 3.24355e-09 1	SI_BUS_07
+s_systeminfo_01_si_bus_08.newdump 7932 8551 0.0021622 0.0352522 0.964748	SI_BUS_08
+s_systeminfo_01_si_nwdf.newdump 23104 23065 0.00516971 0.980871 0.0191288	SI_NWDF
+s_systeminfo_01_si_sammelfehler.newdump 1570 1037 0.000243875 0.965252 0.0347475	SI_Sammelfehler
+s_telefon_01_tf_bt_connectionstate.newdump 1027 1115 0.000210291 0.71407 0.28593	bluetooth connection state
+s_telefon_01_tf_phone_on.newdump 1953 1651 0.000262814 0.987425 0.0125749	phone turn on
+s_tsg_bt_01_asw_abschaltung_ambiente_bfs.newdump 2014 619 0.000656657 2.26433e-06 0.999997	Deactivation of ambiente lighting at the passenger door if vehicle leaving warning is active
+s_tsg_bt_01_bt_fh_bew_hoch.newdump 5290 4357 0.00144597 0.000765098 0.999235	passenger window moving up
+s_tsg_bt_01_bt_fh_bew_tief.newdump 4747 3737 0.00132636 0.000654542 0.999345	passenger window moving down
+s_tsg_bt_01_bt_fh_block.newdump 5633 2787 0.000940379 0.899595 0.100405	passenger window is blocked
+s_tsg_bt_01_bt_fh_fang.newdump 4965 2127 0.000780932 0.923316 0.0766834	passenger window is between 4mm and closed
+s_tsg_bt_01_bt_fh_normiert.newdump 2616 20 0.000291037 0.998747 0.0012527	passenger window is calibrated
+s_tsg_bt_01_bt_fh_pos_oben.newdump 2014 619 0.000656657 2.26433e-06 0.999997	passenger window is up
+s_tsg_bt_01_bt_fh_s_autohoch.newdump 2046 651 0.000670319 8.75222e-06 0.999991	passenger window auto closing triggered
+s_tsg_bt_01_bt_fh_s_autotief.newdump 2036 642 0.000664727 5.90128e-06 0.999994	passenger window auto opening triggered
+s_tsg_bt_01_bt_fh_s_manhoch.newdump 2038 644 0.000664851 6.25864e-06 0.999993	passenger window manual closing triggered
+s_tsg_bt_01_bt_fh_s_mantief.newdump 2041 646 0.000668734 4.63102e-06 0.999995	passenger window manual opening triggered
+s_tsg_bt_01_bt_fh_thermo.newdump 2014 619 0.000656657 2.26433e-06 0.999997	passenger window lift overheated
+s_tsg_bt_01_bt_gesafet.newdump 3200 1911 0.000623777 0.0180264 0.981973	passenger door in safe mode (unable to open from inside)
+s_tsg_bt_01_bt_kisi_fehler.newdump 2014 619 0.000656657 2.26433e-06 0.999997	error children safety lock passenger side
+s_tsg_bt_01_bt_lock_taster.newdump 2014 619 0.000656657 2.26433e-06 0.999997	push button car lock passengers side
+s_tsg_bt_01_bt_oben_block_erw.newdump 4021 2986 0.00109476 5.55615e-05 0.999944	passenger window lift block expectation top
+s_tsg_bt_01_bt_schliesstaster.newdump 2014 619 0.000656657 2.26433e-06 0.999997	push button lock passenger door
+s_tsg_bt_01_bt_schluesselschalter_auf.newdump 2014 619 0.000656657 2.26433e-06 0.999997	passenger door key lock open
+s_tsg_bt_01_bt_schluesselschalter_zu.newdump 2014 619 0.000656657 2.26433e-06 0.999997	passenger door key lock close
+s_tsg_bt_01_bt_sp_ausgerastet.newdump 3553 2214 0.000835966 0.00730154 0.992698	Mirror detached passengers side
+s_tsg_bt_01_bt_sp_blk_def.newdump 2014 619 0.000656657 2.26433e-06 0.999997	BT_Sp_Blk_def
+s_tsg_bt_01_bt_sperrklinke.newdump 2014 619 0.000656657 2.26433e-06 0.999997	passenger door open or not completely closed
+s_tsg_bt_01_bt_sp_heizung_aktiv.newdump 2014 619 0.000656657 2.26433e-06 0.999997	mirror heating active
+s_tsg_bt_01_bt_sp_heizung_status.newdump 4879 3488 0.00174864 0.241641 0.758358	status mirror heating passengers side
+s_tsg_bt_01_bt_sp_ht_aktiv.newdump 2834 1518 0.000922091 0.000111907 0.999888	Mirror on passengers side moving up/down
+s_tsg_bt_01_bt_sp_lr_aktiv.newdump 2764 1448 0.000878832 0.000103862 0.999896	Mirror on passengers side moving left/right
+s_tsg_bt_01_bt_tag_betaetigt.newdump 2014 619 0.000656657 2.26433e-06 0.999997	outside passenger door opener pulled
+s_tsg_bt_01_bt_tig_betaetigt.newdump 2014 619 0.000656657 2.26433e-06 0.999997	inside passenger door opener pulled
+s_tsg_bt_01_bt_tsg_hinten_verbaut.newdump 2014 619 0.000656657 2.26433e-06 0.999997	door ecu in passenger side rear present
+s_tsg_bt_01_bt_tuer_geoeffnet.newdump 2605 1270 0.000643866 0.00463056 0.995369	passenger door opened
+s_tsg_bt_01_bt_uekb_aktiviert.newdump 2018 622 0.00065846 3.80304e-06 0.999996	Force limiter active passenger side
+s_tsg_bt_01_bt_unlock_taster.newdump 2014 619 0.000656657 2.26433e-06 0.999997	push button to unlock the car passenger side pressed
+s_tsg_bt_01_bt_unten_block_erw.newdump 2041 655 0.000644993 3.5993e-06 0.999996	passenger window lift block expectation bottom
+s_tsg_bt_01_bt_verriegelt.newdump 6262 5254 0.00108066 0.960999 0.0390008	passenger door locked
+s_tsg_bt_01_bt_zuziehhilfe_aktiv.newdump 2014 619 0.000656657 2.26433e-06 0.999997	passenger door is getting closed automatically
+s_tsg_ft_01_asw_abschaltung_ambiente_fs.newdump 2014 618 0.000657226 2.2663e-06 0.999997	Deactivation of ambiente lighting at the driver door if vehicle leaving warning is active
+s_tsg_ft_01_asw_hmi_defekt.newdump 2014 618 0.000657226 2.2663e-06 0.999997	vehicle leaving warning user interface broken
+s_tsg_ft_01_asw_wakeup.newdump 2014 618 0.000657226 2.2663e-06 0.999997	wakeup vehicle leaving warning
+s_tsg_ft_01_ft_bfs_fond_freigabe.newdump 2014 618 0.000657226 2.2663e-06 0.999997	enable the remote control of the passenger seat from the rear
+s_tsg_ft_01_ft_daemmglas.newdump 2014 618 0.000657226 2.2663e-06 0.999997	insulating glass driver door
+s_tsg_ft_01_ft_fh_bew_hoch.newdump 7954 7208 0.00220989 0.0014511 0.998549	driver window moving up
+s_tsg_ft_01_ft_fh_bew_tief.newdump 7230 6427 0.00200662 0.00120774 0.998792	driver window moving down
+s_tsg_ft_01_ft_fh_block.newdump 7547 4615 0.0013553 0.877907 0.122093	driver window is blocked
+s_tsg_ft_01_ft_fh_fang.newdump 6997 4046 0.00121649 0.892873 0.107127	driver window is between 4mm and closed
+s_tsg_ft_01_ft_fh_normiert.newdump 2615 17 0.000290773 1 0	driver window is calibrated
+s_tsg_ft_01_ft_fh_pos_oben.newdump 2014 618 0.000657226 2.2663e-06 0.999997	driver window is up
+s_tsg_ft_01_ft_fh_s_autohoch.newdump 7494 6735 0.00207652 0.000560367 0.999439	driver window auto closing triggered
+s_tsg_ft_01_ft_fh_s_autotief.newdump 5803 4959 0.00156603 0.000394313 0.999606	driver window auto opening triggered
+s_tsg_ft_01_ft_fh_s_manhoch.newdump 4456 3417 0.00123008 0.000184294 0.999816	driver window manual closing triggered
+s_tsg_ft_01_ft_fh_s_mantief.newdump 5478 4508 0.00154825 0.00028634 0.999713	driver window manual opening triggered
+s_tsg_ft_01_ft_fh_thermo.newdump 2014 618 0.000657226 2.2663e-06 0.999997	driver window lift overheated
+s_tsg_ft_01_ft_gesafet.newdump 3200 1910 0.000623252 0.0180112 0.981989	driver door in safe mode (unable to open from inside)
+s_tsg_ft_01_ft_hd_taste.newdump 2014 618 0.000657226 2.2663e-06 0.999997	open trunk lid triggered
+s_tsg_ft_01_ft_irue_taste.newdump 2014 618 0.000657226 2.2663e-06 0.999997	activation/deactivation invehicle observation
+s_tsg_ft_01_ft_kisi_fehler.newdump 2014 618 0.000657226 2.2663e-06 0.999997	error children safety lock drivers side
+s_tsg_ft_01_ft_kisi_li_aktiv.newdump 2014 618 0.000657226 2.2663e-06 0.999997	children safety lock left
+s_tsg_ft_01_ft_kisi_re_aktiv.newdump 2014 618 0.000657226 2.2663e-06 0.999997	children safety lock right
+s_tsg_ft_01_ft_kisi_taster_li.newdump 2014 618 0.000657226 2.2663e-06 0.999997	push button children safety lock left
+s_tsg_ft_01_ft_kisi_taster_re.newdump 2014 618 0.000657226 2.2663e-06 0.999997	push button children safety lock right
+s_tsg_ft_01_ft_lock_taster.newdump 2057 673 0.000654199 6.73624e-06 0.999993	push button car lock drivers side
+s_tsg_ft_01_ft_oben_block_erw.newdump 5408 4522 0.0014672 0.000120746 0.999879	driver window lift block expectation top
+s_tsg_ft_01_ft_schliesstaster.newdump 2014 618 0.000657226 2.2663e-06 0.999997	push button lock driver door
+s_tsg_ft_01_ft_schluesselschalter_auf.newdump 2014 618 0.000657226 2.2663e-06 0.999997	driver door key lock open
+s_tsg_ft_01_ft_schluesselschalter_zu.newdump 2014 618 0.000657226 2.2663e-06 0.999997	driver door key lock close
+s_tsg_ft_01_ft_sp_ausgerastet.newdump 3553 2213 0.000836366 0.00736429 0.992636	Mirror detached drivers side
+s_tsg_ft_01_ft_sp_blk_def.newdump 2014 618 0.000657226 2.2663e-06 0.999997	FT_Sp_Blk_def
+s_tsg_ft_01_ft_sperrklinke.newdump 2014 618 0.000657226 2.2663e-06 0.999997	driver door open or not completely closed
+s_tsg_ft_01_ft_sp_heizung_status.newdump 5425 4030 0.00200111 0.241464 0.758536	status mirror heating drivers side
+s_tsg_ft_01_ft_sp_ht_aktiv.newdump 2338 987 0.000718131 3.87324e-05 0.999961	Mirror on drivers side moving up/down
+s_tsg_ft_01_ft_sp_lr_aktiv.newdump 2325 968 0.000729307 4.43203e-05 0.999955	Mirror on drivers side moving left/right
+s_tsg_ft_01_ft_swa_taster.newdump 2014 618 0.000657226 2.2663e-06 0.999997	lane change assist butten pressed
+s_tsg_ft_01_ft_tag_betaetigt.newdump 2014 618 0.000657226 2.2663e-06 0.999997	outside driver door opener pulled
+s_tsg_ft_01_ft_td_taste_fehler.newdump 2014 618 0.000657226 2.2663e-06 0.999997	problem with push button to unlock fuel door
+s_tsg_ft_01_ft_td_taste.newdump 2014 618 0.000657226 2.2663e-06 0.999997	button to unlock fuel door pressed
+s_tsg_ft_01_ft_tig_betaetigt.newdump 2014 618 0.000657226 2.2663e-06 0.999997	inside driver door opener pulled
+s_tsg_ft_01_ft_tsg_hinten_verbaut.newdump 2014 618 0.000657226 2.2663e-06 0.999997	door ecu in driver side rear present
+s_tsg_ft_01_ft_tuer_geoeffnet.newdump 8678 6374 0.00159272 0.0256876 0.974312	driver door opened
+s_tsg_ft_01_ft_uekb_aktiviert.newdump 2014 618 0.000657226 2.2663e-06 0.999997	Force limiter active drivers side
+s_tsg_ft_01_ft_unlock_taster.newdump 2064 684 0.000640656 6.50601e-06 0.999993	push button to unlock the car pressed on drivers side
+s_tsg_ft_01_ft_unten_block_erw.newdump 2070 694 0.000635949 3.53215e-06 0.999996	driver window lift block expectation bottom
+s_tsg_ft_01_ft_verriegelt.newdump 6262 5256 0.00108105 0.960943 0.0390572	Driver door locked
+s_tsg_ft_01_ft_zuziehhilfe_aktiv.newdump 2014 618 0.000657226 2.2663e-06 0.999997	driver door is getting closed automatically
+s_tsg_ft_01_ssr_temp_freigabe.newdump 2014 618 0.000657226 2.2663e-06 0.999997	approval for moving side window blind
+s_tsk_06_tsk_freig_verzoeg_anf.newdump 13296 14283 0.00517004 0.0131108 0.986889	approval deacceleration request
+s_tsk_06_tsk_standby_anf_esp.newdump 13847 14838 0.0053677 0.0147965 0.985203	standby request ESP
+s_tsk_06_tsk_zwangszusch_esp.newdump 11525 12574 0.00410984 0.179638 0.820362	force activation ESP
+s_uhrzeit_01_uh_dls.newdump 2478 155 0.000334907 0.874452 0.125548	UH_DLS
+s_waehlhebel_03_wh_initialisierung.newdump 1488 1738 0.000637226 0.000220111 0.99978	gear lever initializing
+s_wba_03_ge_stoppverbot_anz_07.newdump 24116 24513 0.012877 0.00614712 0.993853	GE_Stoppverbot_Anz_07
+s_wba_03_ge_tipschaltempf_verfuegbar.newdump 452 837 0.000380785 0.00445636 0.995543	GE_Tipschaltempf_verfuegbar
+s_wba_03_wba_segeln_aktiv.newdump 34809 35240 0.0309019 0.0412696 0.95873	WBA_Segeln_aktiv
+s_wfs_01_wfs_betrieb_lesespule.newdump 3711 1996 0.000774866 0.702595 0.297405	WFS_Betrieb_Lesespule
+s_wfs_01_wfs_elv_authorisiert.newdump 3469 1702 0.000689053 0.725237 0.274763	WFS_ELV_authorisiert
+s_wfs_01_wfs_id_geb_autorisiert_in_kl15.newdump 5443 3391 0.000825111 0.980066 0.0199337	WFS_ID_Geb_autorisiert_in_Kl15
+s_wfs_01_wfs_id_geb_autorisiert.newdump 6994 5056 0.00120139 0.961015 0.038985	WFS_ID_Geb_autorisiert
+s_wfs_01_wfs_id_geb_steckt.newdump 5094 2953 0.000745103 0.976635 0.0233644	WFS_ID_Geb_steckt
+s_wfs_01_wfs_klemmenfreigabe.newdump 2014 619 0.000657229 2.26631e-06 0.999997	WFS_Klemmenfreigabe
+s_wfs_01_wfs_lf_aktiv.newdump 4413 3053 0.00124632 0.000392841 0.999607	WFS_LF_Aktiv
+s_wfs_01_wfs_safe.newdump 2064 673 0.000636975 0.00124938 0.99875	WFS_Safe
+s_wfs_01_wfs_verbauinfo_elv.newdump 2014 619 0.000657229 2.26631e-06 0.999997	WFS_Verbauinfo_ELV
+s_wfs_go_1_wfs_gotrigger.newdump 2122 2134 0.001235 0.998824 0.00117586	WFS_GoTrigger
+s_wfs_go_1_wfs_trigger_transpid.newdump 2134 2122 0.00123616 0.00117766 0.998822	WFS_Trigger_TranspID
+s_wischer_01_bcm1_sra_aktiv.newdump 2145 797 0.000623307 0.000112762 0.999887	BCM1_SRA_aktiv
+s_wischer_01_waschen_vorne_aktiv.newdump 5350 4238 0.00161678 0.000510523 0.999489	status: washing in front active
+s_wischer_01_wischer_vorne_aktiv.newdump 10078 9109 0.00305279 0.0592965 0.940703	windshield wiper active
+s_wischer_01_wischer_vorne_blockiert.newdump 2014 617 0.0006587 2.27138e-06 0.999997	windshield wiper blocked
+s_wischer_01_wischer_vorne_defekt.newdump 2014 617 0.0006587 2.27138e-06 0.999997	windshield wiper broken
+s_wischer_01_wischer_vorne_normal.newdump 2708 1409 0.000823311 0.00892446 0.991075	windshield wiper normal speed
+s_wischer_01_wischer_vorne_parklage.newdump 132553 129523 0.0338836 0.97899 0.0210099	windshield wiper hidden in rest position
+s_wischer_01_wischer_vorne_schnell.newdump 2132 772 0.000653743 0.00221798 0.997782	windshield wiper fast speed
+s_wischer_01_wwss_01_alt.newdump 2014 617 0.0006587 2.27138e-06 0.999997	windshield wiper
+s_zfh_01_zfh_bfs_autohoch.newdump 3353 4211 0.0014339 0.000379699 0.99962	ZFH_BFS_AutoHoch
+s_zfh_01_zfh_bfs_autotief.newdump 2073 2644 0.000861778 0.000254086 0.999746	ZFH_BFS_AutoTief
+s_zfh_01_zfh_bfs_manhoch.newdump 1309 1855 0.000642852 0.00013315 0.999867	ZFH_BFS_ManHoch
+s_zfh_01_zfh_bfs_mantief.newdump 1679 2188 0.000795701 0.00014244 0.999857	ZFH_BFS_ManTief
+s_zfh_01_zfh_fs_autohoch.newdump 5481 6543 0.0021722 0.000699814 0.9993	ZFH_FS_AutoHoch
+s_zfh_01_zfh_fs_autotief.newdump 3789 4366 0.00143051 0.00048794 0.999512	ZFH_FS_AutoTief
+s_zfh_01_zfh_fs_manhoch.newdump 2442 3172 0.00108328 0.000229368 0.99977	ZFH_FS_ManHoch
+s_zfh_01_zfh_fs_mantief.newdump 3463 4031 0.0014292 0.0003545 0.999645	ZFH_FS_ManTief
+s_zv_01_bcm_bf_spg_absenkung.newdump 2615 17 0.000290796 1 0	BCM_BF_Spg_Absenkung
+s_zv_01_bcm_spg_synchron.newdump 2014 618 0.000657042 2.26566e-06 0.999997	BCM_Spg_Synchron
+s_zv_01_fh_bt_hoch.newdump 2031 644 0.000640481 1.07196e-05 0.999989	passanger window is up
+s_zv_01_fh_bt_tief.newdump 2019 621 0.000653535 7.62385e-06 0.999992	passanger window is down
+s_zv_01_fh_ft_hoch.newdump 2031 644 0.000640481 1.07196e-05 0.999989	driver window is up
+s_zv_01_fh_ft_tief.newdump 2019 621 0.000653535 7.62385e-06 0.999992	driver window is down
+s_zv_01_fh_hbfs_hoch.newdump 2014 618 0.000657042 2.26566e-06 0.999997	passanger side rear window is up
+s_zv_01_fh_hbfs_tief.newdump 2014 618 0.000657042 2.26566e-06 0.999997	passanger side rear window is down
+s_zv_01_fh_hfs_hoch.newdump 2014 618 0.000657042 2.26566e-06 0.999997	driver side rear window is up
+s_zv_01_fh_hfs_tief.newdump 2014 618 0.000657042 2.26566e-06 0.999997	driver side rear window is down
+s_zv_01_vip_freigabe.newdump 2014 618 0.000657042 2.26566e-06 0.999997	VIP_Freigabe
+s_zv_01_vip_sensor_betaetigt.newdump 2014 618 0.000657042 2.26566e-06 0.999997	VIP_Sensor_betaetigt
+s_zv_01_zv_auf_bt.newdump 2014 618 0.000657042 2.26566e-06 0.999997	open passenger door
+s_zv_01_zv_auf_ft.newdump 2014 618 0.000657042 2.26566e-06 0.999997	open driver door
+s_zv_01_zv_auf_funk.newdump 2397 1022 0.000621866 7.72065e-05 0.999923	Open vehicle requested by Key
+s_zv_01_zv_auf_kessy.newdump 2067 679 0.00064916 5.88965e-06 0.999994	Open vehicle requested by Keyless Entry
+s_zv_01_zv_bt_entriegeln.newdump 5338 4666 0.00151553 0.000146688 0.999853	cenral locking: unlock passenger front door
+s_zv_01_zv_bt_verriegeln.newdump 6437 5893 0.00133339 0.000128124 0.999872	cenral locking: lock passenger front door
+s_zv_01_zv_ft_entriegeln.newdump 5338 4666 0.00151553 0.000146688 0.999853	cenral locking: unlock driver door
+s_zv_01_zv_ft_verriegeln.newdump 6437 5893 0.00133339 0.000128124 0.999872	cenral locking: lock driver door
+s_zv_01_zv_hbfs_entriegeln.newdump 2014 618 0.000657042 2.26566e-06 0.999997	cenral locking: unlock rear door passenger side
+s_zv_01_zv_hbfs_verriegeln.newdump 2014 618 0.000657042 2.26566e-06 0.999997	cenral locking: lock rear door passenger side
+s_zv_01_zv_hfs_entriegeln.newdump 2014 618 0.000657042 2.26566e-06 0.999997	cenral locking: unlock rear door driver side
+s_zv_01_zv_hfs_verriegeln.newdump 2014 618 0.000657042 2.26566e-06 0.999997	cenral locking: lock rear door driver side
+s_zv_01_zv_hsk_entriegeln.newdump 2014 618 0.000657042 2.26566e-06 0.999997	Unlock gloove box
+s_zv_01_zv_hsk_verriegeln.newdump 2014 618 0.000657042 2.26566e-06 0.999997	Lock gloove box
+s_zv_01_zv_led_steuerung.newdump 11823 10816 0.00395159 7.41977e-05 0.999926	LED control
+s_zv_01_zv_led_uebernahme.newdump 3284 1955 0.000633686 0.0199488 0.980051	door ecu takes over LED control
+s_zv_01_zv_softtouch_betaetigt.newdump 3551 2080 0.000831055 0.000755516 0.999244	softtouch used
+s_zv_01_zv_spg_anklappen.newdump 2727 1322 0.000557809 0.00618114 0.993819	fold mirrors
+s_zv_01_zv_verdeck_auf.newdump 2014 618 0.000657042 2.26566e-06 0.999997	Convertable open
+s_zv_01_zv_verdeck_zu.newdump 2014 618 0.000657042 2.26566e-06 0.999997	Convertable closed
+s_zv_01_zv_zentral_entsafen.newdump 5496 4823 0.00157189 0.000152939 0.999847	deactivate safe lock
+s_zv_01_zv_zentral_safen.newdump 3319 2300 0.000821024 5.49076e-05 0.999945	activate safe lock
+s_zv_01_zv_zu_bt.newdump 2014 618 0.000657042 2.26566e-06 0.999997	open passenger door
+s_zv_01_zv_zu_ft.newdump 2014 618 0.000657042 2.26566e-06 0.999997	open driver door
+s_zv_01_zv_zu_funk.newdump 3419 2391 0.000855544 0.000241728 0.999758	Open vehicle requested by Key
+s_zv_01_zv_zu_kessy.newdump 2077 698 0.000676485 6.95071e-06 0.999993	Open vehicle requested by Keyless Entry
+s_zv_01_zv_zu_zeitl_nachverr.newdump 2026 631 0.000641398 3.05613e-06 0.999997	locking again after timeout
+s_zv_02_bcm_fh_freigabe.newdump 5124 3036 0.000751755 0.982437 0.0175627	window controls enabled
+s_zv_02_bcm_hsk_freigabe.newdump 2014 619 0.000655581 2.26063e-06 0.999997	glove box can be opened
+s_zv_02_bcm_komfortfkt_freigabe.newdump 2035 646 0.000637918 1.57488e-05 0.999984	BCM_Komfortfkt_Freigabe
+s_zv_02_bcm_tankklappensteller_fehler.newdump 2014 619 0.000655581 2.26063e-06 0.999997	error fuel door
+s_zv_02_bcm_verdeck_freigabe.newdump 2014 619 0.000655581 2.26063e-06 0.999997	Convertable roof could be closed or opened
+s_zv_02_dwa_aktiv.newdump 2014 619 0.000655581 2.26063e-06 0.999997	DWA_aktiv
+s_zv_02_fbs_idg_in_reichweite.newdump 2014 619 0.000655581 2.26063e-06 0.999997	something in Range related to the central locking
+s_zv_02_fbs_warn_schluessel_batt.newdump 2014 619 0.000655581 2.26063e-06 0.999997	warning key fob battery
+s_zv_02_ffb_auf_taste.newdump 2395 1021 0.000619894 7.74631e-05 0.999922	key fob: unlock
+s_zv_02_ffb_carfinder.newdump 2014 619 0.000655581 2.26063e-06 0.999997	key fob: car finder
+s_zv_02_ffb_hdf_taste.newdump 2050 662 0.000645622 1.35806e-05 0.999986	key fob: open trunk
+s_zv_02_ffb_komfortoeffnen.newdump 2028 633 0.000641864 1.17378e-05 0.999988	key fob: unlock all doors
+s_zv_02_ffb_komfortschliessen.newdump 2047 669 0.000640104 3.89622e-05 0.999961	key fob: lock all doors
+s_zv_02_ffb_panik_taste.newdump 2014 619 0.000655581 2.26063e-06 0.999997	key fob: panik => flash and honk
+s_zv_02_ffb_zu_taste.newdump 3416 2388 0.000853545 0.000243474 0.999756	key fob: lock
+s_zv_02_hbfs_gesafet.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HBFS_gesafet
+s_zv_02_hbfs_verriegelt.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HBFS_verriegelt
+s_zv_02_hd_hauptraste.newdump 6840 2617 0.00100751 0.00988556 0.990114	trunk completly closed
+s_zv_02_hd_vorraste.newdump 7430 3207 0.0011635 0.00957592 0.990424	trunk closed and snapped into first hook
+s_zv_02_hfs_gesafet.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HFS_gesafet
+s_zv_02_hfs_verriegelt.newdump 2014 619 0.000655581 2.26063e-06 0.999997	HFS_verriegelt
+s_zv_02_irue_aktiv.newdump 2014 619 0.000655581 2.26063e-06 0.999997	IRUE_aktiv
+s_zv_02_irue_taster_fkts_led.newdump 2014 619 0.000655581 2.26063e-06 0.999997	IRUE_Taster_Fkts_LED
+s_zv_02_zv_bt_offen.newdump 2608 1270 0.00064598 0.00463756 0.995362	front seat passenger door open
+s_zv_02_zv_einzeltuerentriegelung.newdump 2014 619 0.000655581 2.26063e-06 0.999997	Single door unlocking
+s_zv_02_zv_ft_offen.newdump 8673 6369 0.00159147 0.0256848 0.974315	driver door open
+s_zv_02_zv_gesafet_extern_ist.newdump 3195 1904 0.000621878 0.0180257 0.981974	safe lock current state external
+s_zv_02_zv_gesafet_extern_soll.newdump 3198 1908 0.000622888 0.0180559 0.981944	safe lock target state external
+s_zv_02_zv_hbfs_offen.newdump 2014 619 0.000655581 2.26063e-06 0.999997	cenral locking: rear door passenger side open
+s_zv_02_zv_hd_offen.newdump 6835 2605 0.00100447 0.00989654 0.990103	status trunk lid
+s_zv_02_zv_heckeinzelentriegelung.newdump 9456 4481 0.00134489 0.0438937 0.956106	unlock trunk lid only
+s_zv_02_zv_hfs_offen.newdump 2014 619 0.000655581 2.26063e-06 0.999997	cenral locking: rear door driver side open
+s_zv_02_zv_hs_offen.newdump 2014 619 0.000655581 2.26063e-06 0.999997	status rear windoe
+s_zv_02_zv_ist_zustand_verfuegbar.newdump 2014 619 0.000655581 2.26063e-06 0.999997	central locking: target state available
+s_zv_02_zv_rollo_auf.newdump 2014 619 0.000655581 2.26063e-06 0.999997	central locking: sun shade up
+s_zv_02_zv_rollo_zu.newdump 2014 619 0.000655581 2.26063e-06 0.999997	central locking: sun shade down
+s_zv_02_zv_sad_auf.newdump 2014 619 0.000655581 2.26063e-06 0.999997	central locking: sun SAD up
+s_zv_02_zv_sad_zu.newdump 2014 619 0.000655581 2.26063e-06 0.999997	central locking: sun SAD down
+s_zv_02_zv_safefunktion_aktiv.newdump 2616 17 0.000290772 1 0	central locking: safe lock active
+s_zv_02_zv_tankklappe_offen.newdump 2014 619 0.000655581 2.26063e-06 0.999997	fuel door open
+s_zv_02_zv_verriegelt_extern_ist.newdump 3150 1829 0.000590436 0.0200046 0.979995	safe lock current state external
+s_zv_02_zv_verriegelt_extern_soll.newdump 3149 1829 0.000590284 0.0200288 0.979971	safe lock target state external
+s_zv_02_zv_verriegelt_intern_ist.newdump 5073 4508 0.000874597 0.965213 0.0347871	safe lock current state internal
+s_zv_02_zv_verriegelt_intern_soll.newdump 5069 4502 0.000873384 0.965321 0.0346786	safe lock target state internal
