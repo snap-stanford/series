@@ -125,14 +125,14 @@ with open('/dfs/scratch0/dataset/vw/tsv_sorted/'+fname) as fp:
                         current_false = 0
                         current_true = 0
         elif line[0] != current_car and line[0] in cars:
-            print "car changed"
+            #print "car changed"
             idx_copy = idx-1
             v = 0
             if cars[line[0]][v][0] - current_time >= timedelta(minutes=5):
-                print current_time,cars[line[0]][v][0]
+                #print current_time,cars[line[0]][v][0]
                 continue
             else:
-                print "looping"
+                #print "looping"
                 while v < len(cars[line[0]]) and current_time - cars[line[0]][v][1] > timedelta(minutes=5):
                     v = v + 1
                 if v < len(cars[line[0]]):
