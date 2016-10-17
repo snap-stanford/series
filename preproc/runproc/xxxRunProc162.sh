@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_24_esp_hdc_regelgeschw.tsv
+python2.7 populate_driver.py 20140512_12 ddccc441-0597-494d-93a1-8e0ca76efe37
 exit 0

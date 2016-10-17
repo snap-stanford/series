@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_05_esp_rueckwaertsfahrt_erkannt.tsv
+python2.7 populate_driver.py 20140505_07 5096cd46-d97e-4dfc-9c4a-fe54c2e44d59
 exit 0

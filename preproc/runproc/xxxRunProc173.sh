@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_getriebe_11_ge_fahrstufe.tsv
+python2.7 populate_driver.py 20140410_09 bcc37725-fb79-4e4d-af83-69246a065228
 exit 0

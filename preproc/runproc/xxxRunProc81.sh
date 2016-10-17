@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_motor_20_mo_moment_im_leerlauf.tsv
+python2.7 populate_driver.py 20140313_10 683362d7-55fc-4a20-8c8c-2d00301e627a
 exit 0

@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_getriebe_06_ge_test_freigabe.tsv
+python2.7 populate_driver.py 20140428_08 1cbf3451-435c-439a-aefe-90a100511666
 exit 0

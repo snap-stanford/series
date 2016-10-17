@@ -10,7 +10,6 @@ current_time = start_time
 location = '/lfs/local/0/abhisg/vw/hour_data_2/'
 while current_time <= end_time:
     current_folder_name = datetime.strftime(current_time,"%Y%m%d_%H")
-    print current_folder_name
     os.mkdir(location+current_folder_name)
     current_time += timedelta(hours=1)
 

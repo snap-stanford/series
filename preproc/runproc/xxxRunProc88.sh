@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_lh_eps_03_eps_lenkungstyp.tsv
+python2.7 populate_driver.py 20140506_13 b3e2692e-719a-4c84-bc9b-e6de66397868
 exit 0

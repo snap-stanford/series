@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_getriebe_11_ge_uefkt.tsv
+python2.7 populate_driver.py 20140410_08 c0fb4691-8c98-4bb9-bc40-f5553adf90d7
 exit 0

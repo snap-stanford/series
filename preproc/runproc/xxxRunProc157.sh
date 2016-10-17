@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_24_esp_fehlerstatus_wegimp.tsv
+python2.7 populate_driver.py 20140411_07 ea5e4ec6-d005-41c0-84f2-0be84cec82c8
 exit 0

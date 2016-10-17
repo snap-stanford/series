@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_02_esp_qbit_anf_vert_wank.tsv
+python2.7 populate_driver.py 20140515_13 1cbf3451-435c-439a-aefe-90a100511666
 exit 0

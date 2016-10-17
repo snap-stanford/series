@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_24_esp_textanzeigen_03.tsv
+python2.7 populate_driver.py 20140506_10 b3e2692e-719a-4c84-bc9b-e6de66397868
 exit 0

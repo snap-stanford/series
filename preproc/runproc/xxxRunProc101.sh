@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_02_esp_qbit_querb.tsv
+python2.7 populate_driver.py 20140508_11 ea5e4ec6-d005-41c0-84f2-0be84cec82c8
 exit 0

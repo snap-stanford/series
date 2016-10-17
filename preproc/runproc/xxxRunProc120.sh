@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_05_esp_autohold_standby.tsv
+python2.7 populate_driver.py 20140519_11 ba289166-d8fb-48a6-8902-9a3603a7df32
 exit 0

@@ -7,7 +7,6 @@ python2.7 populate_directories.py s_ldw_02_ldw_vib_amp_vlr.tsv
 python2.7 populate_directories.py s_esp_20_br_reifenumfang.tsv
 python2.7 populate_directories.py s_esp_05_esp_lenkeingriff_ads.tsv
 python2.7 populate_directories.py s_motor_12_mo_mom_neg_verfuegbar.tsv
-python2.7 populate_directories.py s_lwi_01_lwi_sensorstatus.tsv
 python2.7 populate_directories.py s_motor_11_mo_mom_soll_roh.tsv
 python2.7 populate_directories.py s_motor_11_mo_mom_traegheit_summe.tsv
 python2.7 populate_directories.py s_motor_11_mo_mom_soll_gefiltert.tsv
@@ -26,6 +25,7 @@ python2.7 populate_directories.py s_service_key_01_sk1_key_data_6.tsv
 python2.7 populate_directories.py s_service_key_01_sk1_key_data_7.tsv
 python2.7 populate_directories.py s_service_key_01_sk1_key_data_8.tsv
 python2.7 populate_directories.py s_service_key_01_sk1_key_data_9.tsv
+python2.7 populate_directories.py s_psd_02_psd_ges_segment_id.tsv
 python2.7 populate_directories.py s_psd_02_psd_ges_geschwindigkeit.tsv
 python2.7 populate_directories.py s_psd_02_psd_ges_geschwindigkeit_typ.tsv
 python2.7 populate_directories.py s_psd_02_psd_ges_geschwindigkeit_gespann.tsv
@@ -2042,4 +2042,3 @@ python2.7 populate_directories.py s_gateway_72_zv_hd_offen.tsv
 python2.7 populate_directories.py s_zv_02_zv_heckeinzelentriegelung.tsv
 python2.7 populate_directories.py s_zv_02_zv_hfs_offen.tsv
 python2.7 populate_directories.py s_acc_06_acc_sollbeschleunigung_02.tsv
-python2.7 populate_directories.py s_acc_07_acc_sollbeschleunigung_02.tsv

@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_05_esp_hdc_standby.tsv
+python2.7 populate_driver.py 20140313_10 bcc37725-fb79-4e4d-af83-69246a065228
 exit 0

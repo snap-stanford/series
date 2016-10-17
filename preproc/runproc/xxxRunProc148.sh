@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_08_esp_fahrer_tritt_zbr_schw.tsv
+python2.7 populate_driver.py 20140501_13 __EMPTY__
 exit 0

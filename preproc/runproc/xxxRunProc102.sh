@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_02_esp_verteil_wankmom.tsv
+python2.7 populate_driver.py 20140414_06 78dc7eeb-80f5-4eb7-84a6-223ae7a98da3
 exit 0

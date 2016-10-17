@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_getriebe_12_ge_drehzahlmesser_daempfung.tsv
+python2.7 populate_driver.py 20140511_19 __EMPTY__
 exit 0

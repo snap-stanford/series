@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_motor_12_mo_mom_neg_verfuegbar.tsv
+python2.7 create_driver_data.py 1cbf3451-435c-439a-aefe-90a100511666
 exit 0

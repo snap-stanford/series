@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_acc_10_awv2_priowarnung.tsv
+python2.7 populate_driver.py 20140506_10 455d5f5c-4ea2-4215-8823-e7574b3c6dca
 exit 0

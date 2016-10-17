@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_bcm_kessy_01_ky_rssi_wert.tsv
+python2.7 create_driver_data.py b3e2692e-719a-4c84-bc9b-e6de66397868
 exit 0

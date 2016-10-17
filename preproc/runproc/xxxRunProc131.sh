@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_05_esp_eingr_vr.tsv
+python2.7 populate_driver.py 20140422_12 bcc37725-fb79-4e4d-af83-69246a065228
 exit 0

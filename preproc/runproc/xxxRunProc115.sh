@@ -1,3 +1,3 @@
 #! /bin/sh
-python2.7 populate_directories.py s_esp_05_esp_bremsruck_awv2.tsv
+python2.7 populate_driver.py 20140515_06 96915c5f-f811-433d-85d6-f098b352c49e
 exit 0
